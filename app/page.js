@@ -31,10 +31,10 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/NASA_logo.svg"
+          src="/NASA_logo.png"
           alt="Next.js Logo"
           width={180}
-          height={37}
+          height={180}
           priority
         />
       </div>
