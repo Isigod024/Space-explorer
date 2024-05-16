@@ -21,6 +21,13 @@ Cette page permet aux visiteurs de nous contacter pour toute question, suggestio
 ### Connexion
 Les utilisateurs pourront se connecter à leurs comptes sur le site pour accéder à des fonctionnalités avancées telles que la sauvegarde d'articles préférés, la participation à des forums de discussion et la publication de commentaires.
 
+### Inscription
+
+### Ajout d'article
+
+### Article
+
+
 ## Thème Couleur
 
 - **Couleur Principale** : Blanc.
