@@ -40,5 +40,5 @@ const Header = () => {
         </button>
       </div>
     </header>
-    tgfcjbkl
+  )
 }
