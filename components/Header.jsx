@@ -40,7 +40,5 @@ const Header = () => {
         </button>
       </div>
     </header>
-  );
-};
-
-export default Header;
+    tgfcjbkl
+}
