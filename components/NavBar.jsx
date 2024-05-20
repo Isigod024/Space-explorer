@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import styles from './NavBar.module.css';
 import { FaHouseChimney } from "react-icons/fa6";

@@ -1,82 +1,110 @@
-.nav {
-    display: none;
-    flex-direction: column;
-    align-items: flex-end;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: white;
-    width: 100%;
-    height: 100vh;
-    padding: 2rem;
-    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(100%);
-}
-
-.showNav {
-    display: flex;
-    transform: translateX(0);
+/* NavBar.module.css */
+.container {
+    position: relative;
+    z-index: 1001;
 }
 
 .toggleButton {
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
     background: none;
     border: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
+    z-index: 1002;
+    color : rgb(0, 0, 0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.toggleButton:hover {
+    transform: scale(1.1);
+    color : rgb(202, 202, 202);
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+    background-color: #fff;
+    width: 250px;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     z-index: 1000;
 }
 
-ul {
+.showNav {
+    transform: translateX(0);
+}
+
+.navList {
+    list-style: none;
+    margin: 0;
+    padding: 20px 10px;
+    width: 100%;
+}
+
+.navItem {
+    margin: 10px 0;
+    width: 100%;
+}
+
+/* Ajout de styles pour <ul> et <li> */
+.navList {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
 }
 
-li {
-    margin: 1rem 0;
-    opacity: 0;
-    transform: translateX(100%);
-    animation: slideIn 0.5s forwards;
+.navList li {
+    margin: 10px 0;
 }
 
-.navItem:nth-child(1) {
-    animation-delay: 0.1s;
+.navItem a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.navItem:nth-child(2) {
-    animation-delay: 0.2s;
+.navItem a:hover {
+    background-color: #f0f0f0;
+    color: #007BFF;
 }
 
-.navItem:nth-child(3) {
-    animation-delay: 0.3s;
+.navList {
+    padding: 0;
+    margin: 0;
 }
 
-.navItem:nth-child(4) {
-    animation-delay: 0.4s;
+.navItem {
+    padding: 20px 45px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
 }
 
-.navItem:nth-child(5) {
-    animation-delay: 0.5s;
+.navItem:hover {
+    background-color: #e9ecef;
 }
 
-.navItem:nth-child(6) {
-    animation-delay: 0.6s;
+.navItem a {
+    display: block;
+    width: 100%;
+    color: inherit;
+    text-decoration: none;
 }
 
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateX(100%);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
+.navItem a:hover {
+    color: #007bff;
 }
