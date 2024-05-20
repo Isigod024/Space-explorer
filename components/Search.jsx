@@ -1,6 +1,8 @@
 "use client";
 import React, { useState } from 'react';
 import styles from './SearchBar.module.css'; 
+import { FaSearch } from "react-icons/fa";
+
 const SearchBar = ({ onSearch }) => {
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -24,7 +26,7 @@ const SearchBar = ({ onSearch }) => {
         onChange={(e) => setSearchTerm(e.target.value)}
         onKeyPress={handleKeyPress}
       />
-      <button onClick={handleSearch}>Rechercher</button>
+      <button onClick={handleSearch} className={styles.searchButton}><FaSearch/></button>
     </div>
   );
 };
