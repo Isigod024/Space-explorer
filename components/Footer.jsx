@@ -1,5 +1,5 @@
 import styles from './Footer.module.css';
-import { FaFacebook } from "react-icons/fa";// Assurez-vous d'avoir ces images dans votre projet
+import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 
