@@ -1,14 +1,6 @@
 import styles from './SearchBar.module.css'
 
-<<<<<<< Updated upstream
-export default function MenuNav() {
-    return 
-}
-
-=======
-
-
-const SearchBar = () => {
+export default function SearchBar() {
     const [searchTerm, setSearchTerm] = useState('');
   
     const handleSearch = () => {
@@ -45,4 +37,3 @@ const SearchBar = () => {
       </header>
     )
   }
->>>>>>> Stashed changes
