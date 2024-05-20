@@ -1,7 +1,7 @@
 // app/layout.js
 import React from 'react';
-import Header from '../components/Header';
-import '../globals.css';
+import Header from '../components/Header'; 
+import '../styles/globals.css'; 
 import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -18,6 +18,9 @@ const Layout = ({ children }) => {
 };
 
 export default Layout;
+
+
+
 
 
 
