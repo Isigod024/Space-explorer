@@ -1,4 +1,3 @@
-// components/Citation.jsx
 import React from 'react';
 
 const Citation = () => {
