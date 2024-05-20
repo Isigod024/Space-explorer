@@ -1,13 +1,10 @@
-// pages/index.js
-import React from 'react';
-import Layout from '../app/layout';
-
-const Home = () => {
+import styles from "./page.module.css";
+export default function Home() {
   return (
-    <Layout>
-      <div>Welcome to the NASA Home Page</div>
-    </Layout>
+    <main className={styles.main}>
+      <div className={styles.welcome}>
+        Soyez la bienvenue sur biblio-app
+      </div>
+    </main>
   );
-};
-
-export default Home;
+}

@@ -1,17 +1,16 @@
-import Header from '@/components/Header';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import Test from '@/components/Header';
+
 const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
-  title: 'Biblio-app',
-  description: 'Demo Cours Programmation web avancé',
+  title: 'Space Explorer',
+  description: '',
 };
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <Header />
-        <Header />
         {children}
       </body>
     </html>
