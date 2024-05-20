@@ -7,7 +7,5 @@ import { IoMdMenu } from "react-icons/io";
 export default function Header() {
 return <header className={styles.header}>
     <MenuNav />
-    <MenuNav />
-    <MenuNav />
     </header>
 }
