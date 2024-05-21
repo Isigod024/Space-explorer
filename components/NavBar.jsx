@@ -23,12 +23,12 @@ export default function MenuNav() {
             </button>
             <nav className={`${styles.nav} ${navVisible ? styles.showNav : ''}`}>
                 <ul>
-                    <li className={styles.navItem}><a href='#'><FaHouseChimney /> Accueil</a></li>
-                    <li className={styles.navItem}><a href='#'><FaCamera /> Galerie</a></li>
-                    <li className={styles.navItem}><a href='#'><IoMdAddCircle /> Ajout d'article</a></li>
-                    <li className={styles.navItem}><a href='#'><FaFileAlt /> Article</a></li>
-                    <li className={styles.navItem}><a href='#'><IoMdContact /> Connexion</a></li>
-                    <li className={styles.navItem}><a href="#"><BsFillTelephoneFill /> Contact</a></li>
+                    <li className={styles.navItem}><a href='#'><FaHouseChimney />  Accueil</a></li>
+                    <li className={styles.navItem}><a href='#'><FaCamera />  Galerie</a></li>
+                    <li className={styles.navItem}><a href='#'><IoMdAddCircle />  Ajout d'article</a></li>
+                    <li className={styles.navItem}><a href='#'><FaFileAlt />  Article</a></li>
+                    <li className={styles.navItem}><a href='#'><IoMdContact />  Connexion</a></li>
+                    <li className={styles.navItem}><a href="#"><BsFillTelephoneFill />  Contact</a></li>
                 </ul>
             </nav>
         </div>
