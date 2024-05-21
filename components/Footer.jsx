@@ -32,6 +32,7 @@ export default function Footer() {
                                 <FaFacebook />
                                 </a>
                             </li>
+                            
                             <li>
                                 <a href="https://www.instagram.com/nasa/" target="_blank" rel="noopener noreferrer">
                                 <FaInstagram />
