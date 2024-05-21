@@ -1,5 +1,3 @@
-/* SearchBar.module.css */
-
 .searchBar {
   display: flex;
   align-items: center;
@@ -7,31 +5,31 @@
 }
 
 .searchBar input {
-  padding: 10px; /* Augmentez la taille du rembourrage pour un look plus agréable */
-  border: 2px solid #007bff; /* Couleur de la bordure bleue */
-  border-radius: 20px 20px; /* Arrondir les bordures gauche */
+  padding: 10px; 
+  border: 2px solid #007bff; 
+  border-radius: 20px 20px; 
   flex: 1;
-  font-size: 16px; /* Taille de la police */
-  color: #333; /* Couleur du texte */
-  outline: none; /* Supprime le contour du champ de saisie lorsqu'il est sélectionné */
+  font-size: 16px; 
+  color: #333; 
+  outline: none; 
 }
 
 .searchButton {
-  padding: 10px; /* Augmentez la taille du rembourrage pour correspondre à celle de l'entrée */
-  border: 2px solid #ffffff00; /* Couleur de la bordure bleue */
+  padding: 10px; 
+  border: 2px solid #ffffff00; 
   border-left: none;
-  background-color: #ffffff00; /* Couleur de fond bleue */
-  border-radius: 25px; /* Arrondir les bordures droites */
+  background-color: #ffffff00; 
+  border-radius: 25px;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 16px; /* Taille de la police */
-  transition: background-color 0.3s; /* Ajouter une transition pour un effet de survol fluide */
+  font-size: 16px;
+  transition: background-color 0.3s;
 }
 
 .searchButton:hover {
   background-color: #0056b3; 
-  border: 2px solid #0056b3; /* Assombrir légèrement la couleur de la bordure lorsqu'il est survolé */
+  border: 2px solid #0056b3; 
 }
