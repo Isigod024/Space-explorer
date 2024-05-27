@@ -1,6 +1,6 @@
 import styles from './Header.module.css'
 import Image from 'next/image'
-import logo from '@/public/SpaceExplorerLogo.webp'
+import logo from '@/public/Space_Explorer.webp'
 import NavBar from './NavBar'
 import SearchBar from './Search'
 import { IoMdMenu } from "react-icons/io";
