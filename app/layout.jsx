@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   const [page, setPage] = useState('accueil');
 return (
     <html lang='en'>
-      <body className={inter.className + ' ' + styles.body}>
+      <body className={inter.className}>
         <Header setPage={setPage} />
         {children}
         <main className={styles.main}>
