@@ -15,7 +15,7 @@ return <header className={styles.header}>
         height={100}
         width={100}
     />
-    <h1>SPACE-EXPLORER</h1>
+    <h1></h1>
     <NavBar />
 
     <SearchBar />

@@ -4,15 +4,15 @@ import Citation from './Citation';
 import Timer from './Timer';
 export default function Accueil() {
     return <>
-        <Citation auteur='Sedric'>
-            Nous y sommes
+        <Citation auteur=''>
+            
         </Citation>
         
         <Timer/>
-        <Timer compte={50}/>
-        <Timer compte={100}/>
+        <Timer compte={25}/>
+        <Timer compte={10}/>
         <div className={styles.welcome}>
-            Soyez la bienvenue sur biblio-app
+            
         </div>
     </>
 }

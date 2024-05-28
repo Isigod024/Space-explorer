@@ -1,10 +1,10 @@
 import style from './Citation.module.css'
 export default  function Citation(props) {
   return<>
-  <div className={Styles.Citation}>
+  <div className={style.Citation}>
     {props.children}
   </div>
-  <div className={Styles.auteur}>
+  <div className={style.auteur}>
     - {props.auteur}
   </div>
   </>
