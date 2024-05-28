@@ -8,7 +8,9 @@ export default function Banniere({ image, title, description, height }) {
       <div className={styles.content}>
         
         <h1 className={styles.title}>{title}
-        <Image src = {image} height={height}/>
+        <Image src = {image} height={height}>
+            
+        </Image></h1>
         <p className={styles.description}>{description}</p>
       </div>
     </div>
