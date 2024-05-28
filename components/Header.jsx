@@ -7,9 +7,8 @@ import { IoMdMenu } from "react-icons/io";
 
 export default function Header() {
 return <header className={styles.header}>
-<<<<<<< HEAD
-    <MenuNav setPage={setPage} />
-=======
+
+
     <Image 
         src = {logo} 
         alt = "logo de notre site web"
@@ -18,7 +17,7 @@ return <header className={styles.header}>
     />
     <h1>SPACE-EXPLORER</h1>
     <NavBar />
->>>>>>> ed1293f61bf6aab32e2407efd65c9483b1ab417a
+
     <SearchBar />
     </header>
 }
