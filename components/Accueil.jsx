@@ -1,5 +1,7 @@
 import styles from './Accueil.module.css';
 import Citation from './Citation';
+import Banniere from './Banniere';
+import nebuleuse from '@/public/nebuleuse.webp'
 
 import Timer from './Timer';
 export default function Accueil() {
@@ -7,6 +9,12 @@ export default function Accueil() {
         <Citation auteur=''>
             
         </Citation>
+
+        <Banniere
+        image={nebuleuse}
+        title="Nebuleuse"
+        description="Description"
+        />
         
         <Timer/>
         <Timer compte={25}/>
