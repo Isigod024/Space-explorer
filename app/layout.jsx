@@ -14,25 +14,25 @@ export default function RootLayout({ children }) {
   const [page, setPage] = useState('accueil');
 return (
     <html lang='en'>
-      <body className={inter.className}>
+      <body className={inter.className + ' ' + styles.body}>
         <Header setPage={setPage} />
         {children}
         <main className={styles.main}>
-          {page === 'accueil' ? (
+          {page === 'accueil' ? 
             <Accueil />
-          ) : page === 'Galerie' ? (
+           : page === 'Galerie' ? 
             <Galerie />
-          ) : page === 'Article' ? (
+           : page === 'Article' ? 
             <article />
-          ) : page === 'Ajout d article' ? (
+           : page === 'Ajout d article' ? 
             <AjoutDArticle />
-          ) : page === 'connexion' ? (
+           : page === 'connexion' ? 
             <Connexion />
-          ) : page === 'Contact' ? (
+           : page === 'Contact' ? 
             <Contact />
-          ) : (
-            <div>404 - Not Found</div>
-          )}
+          
+           : <div>404 - Not Found</div>
+          }
         </main>
         <Footer />
       </body>
