@@ -1,3 +1,0 @@
-Alt + Shift + F = Auto indentation
-
-Ctrl + K = Auto commentaires
