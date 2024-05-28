@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+//import axios from 'axios';
 import styles from './Documents.module.css';
 
 export default function NasaFileChecker() {
@@ -7,13 +7,13 @@ export default function NasaFileChecker() {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        axios.get('http://localhost:3001/check-file')
-            .then(response => {
-                setFileData(response.data);
-            })
-            .catch(error => {
-                setError(error.response ? error.response.data : 'Error');
-            });
+            axios.get('http://localhost:3001/check-file')
+           .then(response => {
+               setFileData(response.data);
+          })
+           .catch(error => {
+              setError(error.response ? error.response.data : 'Error');
+          });
     }, []);
 
     return (
@@ -33,4 +33,5 @@ export default function NasaFileChecker() {
             )}
         </div>
     );
-}
+    }
+
