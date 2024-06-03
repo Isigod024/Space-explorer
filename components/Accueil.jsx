@@ -1,26 +1,19 @@
 import styles from './Accueil.module.css';
 import Citation from './Citation';
-import Banniere from './Banniere';
-import nebuleuse from '@/public/nebuleuse.webp'
-
+import Titre from './Titre';
 import Timer from './Timer';
+
 export default function Accueil() {
     return <>
-        <Citation auteur=''>
-            
+        <Citation auteur='Sedric'>
+            Nous y sommes
         </Citation>
-
-        <Banniere
-        image={nebuleuse}
-        title="Nebuleuse"
-        description="Description"
-        />
-        
         <Timer/>
         <Timer compte={25}/>
-        <Timer compte={10}/>
+        <Timer compte={100}/>
         <div className={styles.welcome}>
-            
+            Soyez la bienvenue sur biblio-app
         </div>
+        <Titre/>
     </>
 }
