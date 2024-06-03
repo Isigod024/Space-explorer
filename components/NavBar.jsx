@@ -8,10 +8,12 @@ import { FaFileAlt } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { useRouter } from 'next/navigation';
 
 export default function MenuNav({ setPage }) {
     const [navVisible, setNavVisible] = useState(false);
-
+    const routeur = useRouter();
+    
     const toggleNav = () => {
         setNavVisible(!navVisible);
     };

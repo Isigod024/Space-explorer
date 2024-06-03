@@ -21,7 +21,7 @@ export default function Header({ setPage }) {
                 <SearchBar />
             </div>
             
-            <NavBar />
+            <NavBar setPage={setPage}/>
         </header>
     );
 }
