@@ -1,5 +1,5 @@
 import React from 'react';
-import MenuNav from './MenuNav'; 
+import NavBar from './NavBar'; 
 import SearchBar from './SearchBar'; 
 import styles from './layout.module.css'; 
 
@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
 
   return (
     <div className={styles.container}>
-      <MenuNav setPage={setPage} />
+      <NavBar setPage={setPage} />
       <SearchBar />
       {children}
     </div>
