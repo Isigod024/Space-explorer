@@ -1,4 +1,3 @@
-// components/Connexion.jsx
 import React, { useState } from 'react';
 
 const Connexion = () => {
@@ -9,7 +8,7 @@ const Connexion = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Remplacez cette partie par votre logique d'authentification
+
     if (email === 'user@example.com' && password === 'password') {
       alert('Login successful');
     } else {
