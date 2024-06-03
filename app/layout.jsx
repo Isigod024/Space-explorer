@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] });
 export default function RootLayout({ children }) {
   const [page, setPage] = useState('accueil');
 return (
-    <html lang='fr'>
+    <html lang='en'>
       <body className={inter.className}>
         <Header setPage={setPage} />
         {children}
