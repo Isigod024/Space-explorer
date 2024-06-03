@@ -9,7 +9,7 @@ import { IoMdContact } from "react-icons/io";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaBars, FaTimes } from 'react-icons/fa';
 
-export default function MenuNav() {
+export default function MenuNav({ setPage }) {
     const [navVisible, setNavVisible] = useState(false);
 
     const toggleNav = () => {
@@ -23,12 +23,11 @@ export default function MenuNav() {
             </button>
             <nav className={`${styles.nav} ${navVisible ? styles.showNav : ''}`}>
                 <ul>
-                    <li className={styles.navItem}><a href='#'><FaHouseChimney /> Accueil</a></li>
-                    <li className={styles.navItem}><a href='#'><FaCamera /> Galerie</a></li>
-                    <li className={styles.navItem}><a href='#'><IoMdAddCircle /> Ajout d'article</a></li>
-                    <li className={styles.navItem}><a href='#'><FaFileAlt /> Article</a></li>
-                    <li className={styles.navItem}><a href='#'><IoMdContact /> Connexion</a></li>
-                    <li className={styles.navItem}><a href="#"><BsFillTelephoneFill /> Contact</a></li>
+                    <li className={styles.navItem}><a href='#' onClick={() => setPage('accueil')}><FaHouseChimney /> Accueil</a></li>
+                    <li className={styles.navItem}><a href='#' onClick={() => setPage('Galerie')}><FaCamera /> Galerie</a></li>
+                    <li className={styles.navItem}><a href='#' onClick={() => setPage('Ajout d article')}><IoMdAddCircle /> Ajout d'article</a></li>
+                    <li className={styles.navItem}><a href='#' onClick={() => setPage('connexion')}><IoMdContact /> Connexion</a></li>
+                    <li className={styles.navItem}><a href="#" onClick={() => setPage('Contact')}><BsFillTelephoneFill /> Contact</a></li>
                 </ul>
             </nav>
         </div>
