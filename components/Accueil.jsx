@@ -2,6 +2,7 @@ import galaxyGif from '@/public/Galaxy.gif';
 import ArticleNode from './ArticleNode';
 import articles from '@/data/articles.json';
 import Image from 'next/image';
+import styles from './Accueil.module.css';
 
 export default function Accueil() {
     return (
