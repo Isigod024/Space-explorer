@@ -1,21 +1,36 @@
-import Image from 'next/image';
-import styles from '../Gallerie.module,css'
-export default function Gallerie ( { image}) {
+import React, { useState } from 'react';
+import styles from './Galerie.module.css';
 
+const Galerie = () => {
+  const [images, setImages] = useState([]);
+  const [imageUrl, setImageUrl] = useState('');
 
-    return <div className={styles.gallerie}>
-   
-       {image.map((image, index) =>
-       <Image
-       key={index}
-       src={image.src}
-       alt={image.alt}
-       width={image.width}
-       height={image.height}
-           />
-       
-    )}
+  const handleAddImage = () => {
+    if (imageUrl) {
+      setImages([...images, { src: imageUrl }]);
+      setImageUrl('');
+    }
+  };
+
+  return (
+    <div className={styles.galerieContainer}>
+      <div className={styles.formContainer}>
+        <input
+          type="text"
+          value={imageUrl}
+          onChange={(e) => setImageUrl(e.target.value)}
+          placeholder="Enter image URL"
+        />
+        <button onClick={handleAddImage}>Add Image</button>
+      </div>
+      <div className={styles.galerie}>
+        {images.map((image, index) => (
+          <img key={index} src={image.src} alt={`Image ${index}`} />
+        ))}
+      </div>
     </div>
-}
+  );
+};
 
+export default Galerie;
 

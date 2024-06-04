@@ -1,0 +1,22 @@
+.galerieContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .formContainer {
+    margin-bottom: 20px;
+  }
+  
+  .galerie {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .galerie img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  

@@ -1,0 +1,31 @@
+.contactContainer {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contactContainer h1 {
+    text-align: center;
+  }
+  
+  .contactList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contactList li {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .contactList h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .contactList p {
+    margin: 5px 0;
+    color: #555;
+  }
+  

@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import Contact from '@/components/Contact';
 import Connexion from '@/components/Connexion';
 import Accueil from '@/components/Accueil';
+import Galerie from '@/components/Galerie';
 import AjoutDArticle from '@/components/AjoutArticle';
 import { useState } from 'react';
 import styles from './layout.module.css';
