@@ -3,10 +3,10 @@
     justify-content: center;
     align-items: center;
     padding: 10px 20px;
-    background-color: #0080ff;
+    background-color: var(--Main-Com-color);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
-    min-height: 1ZZ00px;
+    min-height: 100px;
     flex-direction: column;
     text-align: center;
 }

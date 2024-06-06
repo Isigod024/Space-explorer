@@ -1,25 +1,7 @@
 :root {
-  --hue-color: 200;
+  --Main-hue-color: 211;
   /* --hue-color: 165; */
-  --first-color: hsl(var(--hue-color), 60%, 33%);
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
-  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-  --title-color: hsl(var(--hue-color), 8%, 15%);
-  --text-color: hsl(var(--hue-color), 8%, 45%);
-  --text-color-light: hsl(var(--hue-color), 8%, 65%);
-  --input-color: hsl(var(--hue-color), 70%, 96%);
-  --body-color: hsl(var(--hue-color), 60%, 99%);
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
-  --grey2: #eee;
-  --grey: #fafafa;
-  --light: #FFF;
-  --dark: #000;
-  --couleur1:hsl(295, 60%, 33%);
-  --couleur2:hsl(165, 60%, 33%);
-  --couleur3:hsl(235, 60%, 33%);
-  --couleur4:hsl(205, 60%, 33%);
+  --Main-Com-color: hsl(var(--Main-hue-color), 100%, 50%);
 
   /* Les differentes tailles pour les petits ecrans */
   --big-font-size: 2rem;
