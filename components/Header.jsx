@@ -1,30 +1,3 @@
-// 
-// import Image from 'next/image';
-//
-// import NavBar from './NavBar';
-// import SearchBar from './Search';
-// import { IoMdMenu } from "react-icons/io";
-
-// export default function Header({ setPage }) {
-//     return (
-//         <header className={styles.header}>
-            
-//             <div className={styles.logoContainer}>
-//                 <Image 
-//                     src={logo} 
-//                     alt="logo de notre site web"
-//                     height={100}
-//                     width={100}
-//                     className={styles.logo}
-//                 />
-//                 <h1 className={styles.siteTitle}>SPACE EXPLORER</h1>
-//                 <SearchBar />
-//             </div>
-            
-//             <NavBar setPage={setPage}/>
-//         </header>
-//     );
-// }
 
 'use client'
 import React, { useEffect, useState } from 'react';
@@ -71,14 +44,12 @@ export default function Header() {
       <div className={`${styles.navContainer} ${navVisible ? styles.shownavContainer : ''}`}>
         <nav className={styles.nav}>
           <ul className={styles.navList}>
-            <li className={styles.navItem}><a href="#home">Accueil</a></li>
-            <li className={styles.navItem}><a href="#about">À propos</a></li>
-            <li className={styles.navItem}><a href="#classes">Cours</a></li>
-            <li className={styles.navItem}><a href="#events">Événements</a></li>
-            <li className={styles.navItem}><a href="#gallery">Galerie</a></li>
-            <li className={styles.navItem}><a href="#Inscription">Inscription</a></li>
-            <li className={styles.navItem}><a href="#contact">Contact</a></li>
-          </ul>
+                    <li className={styles.navItem}><a href='#' onClick={() => setPage('accueil')}> Accueil</a></li>
+                    <li className={styles.navItem}><a href='#' onClick={() => setPage('Galerie')}>Galerie</a></li>
+                    <li className={styles.navItem}><a href='#' onClick={() => setPage('Ajout d article')}>Ajout d'article</a></li>
+                    <li className={styles.navItem}><a href='#' onClick={() => setPage('connexion')}> Connexion</a></li>
+                    <li className={styles.navItem}><a href="#" onClick={() => setPage('Contact')}>Contact</a></li>
+                </ul>
         </nav>
       </div>
     </header>

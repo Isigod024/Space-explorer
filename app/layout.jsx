@@ -18,7 +18,7 @@ return (
       <body className={inter.className}>
         <Header setPage={setPage} />
         {children}
-        <main className={styles.main}>
+        {/* <main className={styles.main}>
           {page === 'accueil' ? 
             <Accueil />
            : page === 'Galerie' ? 
@@ -34,7 +34,7 @@ return (
 
            : <div>404 - Not Found</div>
           }
-        </main>
+        </main> */}
         <Footer />
       </body>
     </html>
