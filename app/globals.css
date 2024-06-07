@@ -2,7 +2,17 @@
   --Main-hue-color: 211;
   /* --hue-color: 165; */
   --Main-Com-color: hsl(var(--Main-hue-color), 100%, 50%);
-
+  --Header-Color: hsla(var(--Main-hue-color), 100%, 5%, 0.8);
+  --BackApropos-Color: hsla(var(--Main-hue-color), 0%, 100%, 0.1);
+  --BackAproposItem-Color: hsla(var(--Main-hue-color), 0%, 100%, 0.95);
+  --Menu-color: hsla(var(--Main-hue-color), 60%, 80%, 0.4);
+  --Menu-Hover-Item-color: hsla(var(--Main-hue-color), 60%, 80%, 1);
+  --shadow-Color: hsla(var(--Main-hue-color), 0%, 0%, 0.1);
+  
+  --Dark-Text : hsl(var(--Main-hue-color), 0%, 0%);
+  --Light-Text : hsl(var(--Main-hue-color), 0%, 100%);
+  --Hover-Text : hsl(calc(var(--Main-hue-color) - 31) , 100%, 50%);
+  --shadow-Text-Color: hsla(var(--Main-hue-color), 0%, 0%, 0.2);
   /* Les differentes tailles pour les petits ecrans */
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
