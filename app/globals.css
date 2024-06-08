@@ -3,6 +3,7 @@
   /* --hue-color: 165; */
   --Main-Com-color: hsl(var(--Main-hue-color), 100%, 50%);
   --Header-Color: hsla(var(--Main-hue-color), 100%, 5%, 0.8);
+  --Footer-Color: hsla(var(--Main-hue-color), 100%, 5%, 1);
   --BackApropos-Color: hsla(var(--Main-hue-color), 0%, 100%, 0.1);
   --BackAproposItem-Color: hsla(var(--Main-hue-color), 0%, 100%, 0.95);
   --Menu-color: hsla(var(--Main-hue-color), 60%, 80%, 0.4);

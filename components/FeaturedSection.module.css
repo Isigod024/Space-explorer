@@ -1,0 +1,19 @@
+.featured {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.featured h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}

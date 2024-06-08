@@ -1,0 +1,21 @@
+.container {
+  padding: 0;
+  margin: 230px 0 160px 0;
+  box-sizing: border-box;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  border-radius: 15px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.bubble {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

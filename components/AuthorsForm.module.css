@@ -1,0 +1,36 @@
+.authorsForm {
+    margin-top: 20px;
+    color: #333;
+}
+
+.authorsForm ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.authorsForm li {
+    margin-bottom: 5px;
+}
+
+.authorsForm input {
+    padding: 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-top: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+.authorsForm button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.authorsForm button:hover {
+    background-color: #1976D2;
+}

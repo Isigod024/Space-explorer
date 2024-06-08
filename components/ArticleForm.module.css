@@ -1,0 +1,40 @@
+.articleForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #333;
+}
+
+.articleForm label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.articleForm input, .articleForm textarea, .articleForm button {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+}
+
+.articleForm h3 {
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.articleForm button {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.articleForm button:hover {
+    background-color: #1976D2;
+}

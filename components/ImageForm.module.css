@@ -1,0 +1,21 @@
+.imageForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.imageForm label {
+    display: flex;
+    flex-direction: column;
+}
+
+.imageForm input, .imageForm textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+}

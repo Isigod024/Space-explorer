@@ -5,22 +5,22 @@ import './globals.css';
 import Footer from '@/components/Footer';
 import Contact from '@/components/Contact';
 import Connexion from '@/components/Connexion';
-import Accueil from '@/components/Accueil';
+import Acceuil from '@/components/Acceuil';
 import Galerie from '@/components/Galerie';
 import AjoutDArticle from '@/components/AjoutArticle';
 import { useState } from 'react';
 import styles from './layout.module.css';
 const inter = Inter({ subsets: ['latin'] });
 export default function RootLayout({ children }) {
-  const [page, setPage] = useState('accueil');
+  const [page, setPage] = useState('Ajout d article');
 return (
     <html lang='en'>
       <body className={inter.className}>
         <Header setPage={setPage} />
         {children}
-        {/* <main className={styles.main}>
+        <main className={styles.main}>
           {page === 'accueil' ? 
-            <Accueil />
+            <Acceuil />
            : page === 'Galerie' ? 
             <Galerie />
            : page === 'Article' ? 
@@ -34,7 +34,7 @@ return (
 
            : <div>404 - Not Found</div>
           }
-        </main> */}
+        </main>
         <Footer />
       </body>
     </html>

@@ -1,37 +1,433 @@
-[
-    {
-        "title": "Exploring the Milky Way",
-        "image": "/nebuleuse.webp",
-        "content": "An in-depth look at our galaxy...",
-        "date": "31/05/2024",
-        "author": "Jane Doe"
-    },
-    {
-        "title": "Mars Rover Discoveries",
-        "image": "/nebuleuse.webp",
-        "content": "Recent findings from the Mars Rover...",
-        "date": "31/05/2024",
-        "author": "John Smith"
-    },
-    {
-        "title": "Black Hole Mysteries",
-        "image": "/nebuleuse.webp",
-        "content": "The enigma of black holes...",
-        "date": "31/05/2024",
-        "author": "Alice Johnson"
-    },
-    {
-        "title": "The Future of Space Travel",
-        "image": "/nebuleuse.webp",
-        "content": "What lies ahead for humanity...",
-        "date": "31/05/2024",
-        "author": "Mark Brown"
-    },
-    {
-        "title": "Alien Life: Fact or Fiction?",
-        "image": "/nebuleuse.webp",
-        "content": "Exploring the possibilities of extraterrestrial life...",
-        "date": "31/05/2024",
-        "author": "Sarah Green"
-    }
-]
+{
+    "articles": [
+        {
+            "titre": "La révolution de l'intelligence artificielle",
+            "image_principale": {
+                "lien_image": "/nebuleuse.webp",
+                "titre_image": "Intelligence Artificielle",
+                "description_image": "Une représentation visuelle de l'intelligence artificielle."
+            },
+            "contenus": [
+                {
+                    "titre": "Introduction à l'IA",
+                    "texte": "L'intelligence artificielle (IA) est une branche de l'informatique...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Introduction à l'IA",
+                        "description_image": "Un graphique expliquant les bases de l'IA."
+                    }
+                },
+                {
+                    "titre": "Histoire de l'IA",
+                    "texte": "L'histoire de l'intelligence artificielle remonte aux années 1950...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Histoire de l'IA",
+                        "description_image": "Un aperçu des premières recherches sur l'IA."
+                    }
+                },
+                {
+                    "titre": "Applications modernes de l'IA",
+                    "texte": "Aujourd'hui, l'intelligence artificielle est utilisée dans divers domaines...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Applications de l'IA",
+                        "description_image": "Des exemples d'applications modernes de l'IA."
+                    }
+                }
+            ],
+            "date_publication": "2024-06-07",
+            "auteurs": ["Jean Dupont", "Marie Curie"]
+        },
+        {
+            "titre": "Les avancées en robotique",
+            "image_principale": {
+                "lien_image": "/nebuleuse.webp",
+                "titre_image": "Avancées en Robotique",
+                "description_image": "Des robots modernes en action."
+            },
+            "contenus": [
+                {
+                    "titre": "Évolution de la robotique",
+                    "texte": "La robotique a parcouru un long chemin depuis ses débuts...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Évolution de la robotique",
+                        "description_image": "Des robots anciens comparés à ceux d'aujourd'hui."
+                    }
+                },
+                {
+                    "titre": "Robotique et IA",
+                    "texte": "La combinaison de la robotique et de l'IA a ouvert de nouvelles possibilités...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Robotique et IA",
+                        "description_image": "Un robot équipé d'intelligence artificielle."
+                    }
+                },
+                {
+                    "titre": "Applications industrielles",
+                    "texte": "Les robots sont désormais couramment utilisés dans l'industrie...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Robots industriels",
+                        "description_image": "Des robots travaillant dans une usine."
+                    }
+                }
+            ],
+            "date_publication": "2024-06-07",
+            "auteurs": ["Alice Martin", "Pierre Durand"]
+        },
+        {
+            "titre": "L'ère des véhicules autonomes",
+            "image_principale": {
+                "lien_image": "/nebuleuse.webp",
+                "titre_image": "Véhicules Autonomes",
+                "description_image": "Une voiture autonome en mouvement."
+            },
+            "contenus": [
+                {
+                    "titre": "Introduction aux véhicules autonomes",
+                    "texte": "Les véhicules autonomes représentent l'avenir du transport...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Introduction aux véhicules autonomes",
+                        "description_image": "Les bases de la technologie des véhicules autonomes."
+                    }
+                },
+                {
+                    "titre": "Technologie sous-jacente",
+                    "texte": "La technologie derrière les véhicules autonomes est complexe...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Technologie des véhicules autonomes",
+                        "description_image": "Les capteurs et systèmes utilisés dans les véhicules autonomes."
+                    }
+                },
+                {
+                    "titre": "Défis et opportunités",
+                    "texte": "Les véhicules autonomes présentent à la fois des défis et des opportunités...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Défis des véhicules autonomes",
+                        "description_image": "Les principaux défis auxquels sont confrontés les véhicules autonomes."
+                    }
+                }
+            ],
+            "date_publication": "2024-06-07",
+            "auteurs": ["Sophie Leblanc", "David Moreau"]
+        },
+        {
+            "titre": "La montée de la blockchain",
+            "image_principale": {
+                "lien_image": "/nebuleuse.webp",
+                "titre_image": "Blockchain",
+                "description_image": "Un schéma représentant la technologie blockchain."
+            },
+            "contenus": [
+                {
+                    "titre": "Qu'est-ce que la blockchain?",
+                    "texte": "La blockchain est une technologie de stockage et de transmission d'informations...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Introduction à la blockchain",
+                        "description_image": "Les bases de la technologie blockchain."
+                    }
+                },
+                {
+                    "titre": "Applications de la blockchain",
+                    "texte": "La blockchain trouve des applications dans divers domaines...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Applications de la blockchain",
+                        "description_image": "Les principales applications de la blockchain."
+                    }
+                },
+                {
+                    "titre": "Futur de la blockchain",
+                    "texte": "La blockchain a le potentiel de transformer de nombreux secteurs...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Futur de la blockchain",
+                        "description_image": "Les perspectives d'avenir pour la blockchain."
+                    }
+                }
+            ],
+            "date_publication": "2024-06-07",
+            "auteurs": ["Lucile Bernard", "Antoine Girard"]
+        },
+        {
+            "titre": "Les secrets de la cybersécurité",
+            "image_principale": {
+                "lien_image": "/nebuleuse.webp",
+                "titre_image": "Cybersécurité",
+                "description_image": "Une illustration de la cybersécurité en action."
+            },
+            "contenus": [
+                {
+                    "titre": "Introduction à la cybersécurité",
+                    "texte": "La cybersécurité est essentielle dans le monde numérique actuel...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Introduction à la cybersécurité",
+                        "description_image": "Les bases de la cybersécurité."
+                    }
+                },
+                {
+                    "titre": "Menaces et vulnérabilités",
+                    "texte": "Les menaces et vulnérabilités en cybersécurité sont nombreuses...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Menaces en cybersécurité",
+                        "description_image": "Les principales menaces en cybersécurité."
+                    }
+                },
+                {
+                    "titre": "Stratégies de protection",
+                    "texte": "Il existe diverses stratégies pour protéger les systèmes informatiques...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Stratégies de protection",
+                        "description_image": "Les meilleures pratiques en matière de cybersécurité."
+                    }
+                }
+            ],
+            "date_publication": "2024-06-07",
+            "auteurs": ["Nicolas Petit", "Elise Laurent"]
+        },
+        {
+            "titre": "L'impact des réseaux sociaux",
+            "image_principale": {
+                "lien_image": "/nebuleuse.webp",
+                "titre_image": "Réseaux Sociaux",
+                "description_image": "Les réseaux sociaux et leur impact sur la société."
+            },
+            "contenus": [
+                {
+                    "titre": "Évolution des réseaux sociaux",
+                    "texte": "Les réseaux sociaux ont évolué de manière significative au fil des ans...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Évolution des réseaux sociaux",
+                        "description_image": "L'histoire et l'évolution des réseaux sociaux."
+                    }
+                },
+                {
+                    "titre": "Impact sur la société",
+                    "texte": "Les réseaux sociaux ont un impact majeur sur la société...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Impact des réseaux sociaux",
+                        "description_image": "L'impact des réseaux sociaux sur la société moderne."
+                    }
+                },
+                {
+                    "titre": "Futur des réseaux sociaux",
+                    "texte": "Le futur des réseaux sociaux est prometteur et incertain...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Futur des réseaux sociaux",
+                        "description_image": "Les perspectives d'avenir pour les réseaux sociaux."
+                    }
+                }
+            ],
+            "date_publication": "2024-06-07",
+            "auteurs": ["Juliette Lambert", "Hugo Martin"]
+        },
+        {
+            "titre": "L'évolution de l'e-commerce",
+            "image_principale": {
+                "lien_image": "/nebuleuse.webp",
+                "titre_image": "E-commerce",
+                "description_image": "L'évolution du commerce électronique."
+            },
+            "contenus": [
+                {
+                    "titre": "Historique de l'e-commerce",
+                    "texte": "L'e-commerce a connu une croissance rapide depuis ses débuts...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Historique de l'e-commerce",
+                        "description_image": "Les débuts et l'évolution de l'e-commerce."
+                    }
+                },
+                {
+                    "titre": "Tendances actuelles",
+                    "texte": "Les tendances actuelles de l'e-commerce montrent une forte adoption...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Tendances de l'e-commerce",
+                        "description_image": "Les tendances actuelles dans le domaine de l'e-commerce."
+                    }
+                },
+                {
+                    "titre": "Futur de l'e-commerce",
+                    "texte": "Le futur de l'e-commerce est rempli de nouvelles opportunités...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Futur de l'e-commerce",
+                        "description_image": "Les perspectives d'avenir pour l'e-commerce."
+                    }
+                }
+            ],
+            "date_publication": "2024-06-07",
+            "auteurs": ["Emilie Roy", "Lucas Fournier"]
+        },
+        {
+            "titre": "Les innovations en santé numérique",
+            "image_principale": {
+                "lien_image": "/nebuleuse.webp",
+                "titre_image": "Santé Numérique",
+                "description_image": "Les innovations en santé numérique."
+            },
+            "contenus": [
+                {
+                    "titre": "Introduction à la santé numérique",
+                    "texte": "La santé numérique transforme la manière dont nous gérons notre santé...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Introduction à la santé numérique",
+                        "description_image": "Les bases de la santé numérique."
+                    }
+                },
+                {
+                    "titre": "Technologies de santé numérique",
+                    "texte": "Les technologies de santé numérique incluent des dispositifs connectés...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Technologies de santé numérique",
+                        "description_image": "Les technologies clés en santé numérique."
+                    }
+                },
+                {
+                    "titre": "Impact sur les soins de santé",
+                    "texte": "La santé numérique a un impact majeur sur les soins de santé...",
+                    "image": {
+                        "lien_image": "/nebuleuse.webp",
+                        "titre_image": "Impact de la santé numérique",
+                        "description_image": "Comment la santé numérique change les soins de santé."
+                    }
+                }
+            ],
+            "date_publication": "2024-06-07",
+            "auteurs": ["Anna Mercier", "Thomas Dupuis"]
+        },
+        {
+            "titre": "Les tendances de l'éducation en ligne",
+            "image_principale": {
+                "lien_image": "https://example.com/online_education.jpg",
+                "titre_image": "Éducation en Ligne",
+                "description_image": "Les tendances actuelles de l'éducation en ligne."
+            },
+            "contenus": [
+                {
+                    "titre": "Croissance de l'éducation en ligne",
+                    "texte": "L'éducation en ligne a connu une croissance exponentielle...",
+                    "image": {
+                        "lien_image": "https://example.com/online_education_growth.jpg",
+                        "titre_image": "Croissance de l'éducation en ligne",
+                        "description_image": "L'essor de l'éducation en ligne."
+                    }
+                },
+                {
+                    "titre": "Technologies utilisées",
+                    "texte": "Les technologies utilisées dans l'éducation en ligne sont diverses...",
+                    "image": {
+                        "lien_image": "https://example.com/online_education_tech.jpg",
+                        "titre_image": "Technologies de l'éducation en ligne",
+                        "description_image": "Les technologies clés de l'éducation en ligne."
+                    }
+                },
+                {
+                    "titre": "Impact sur l'apprentissage",
+                    "texte": "L'éducation en ligne a transformé la manière dont nous apprenons...",
+                    "image": {
+                        "lien_image": "https://example.com/online_education_impact.jpg",
+                        "titre_image": "Impact de l'éducation en ligne",
+                        "description_image": "Les effets de l'éducation en ligne sur l'apprentissage."
+                    }
+                }
+            ],
+            "date_publication": "2024-06-07",
+            "auteurs": ["Marc Lefevre", "Sophie Robert"]
+        },
+        {
+            "titre": "Les avancées en énergie renouvelable",
+            "image_principale": {
+                "lien_image": "https://example.com/renewable_energy.jpg",
+                "titre_image": "Énergie Renouvelable",
+                "description_image": "Les innovations en énergie renouvelable."
+            },
+            "contenus": [
+                {
+                    "titre": "Introduction aux énergies renouvelables",
+                    "texte": "Les énergies renouvelables sont cruciales pour un avenir durable...",
+                    "image": {
+                        "lien_image": "https://example.com/renewable_intro.jpg",
+                        "titre_image": "Introduction aux énergies renouvelables",
+                        "description_image": "Les bases des énergies renouvelables."
+                    }
+                },
+                {
+                    "titre": "Technologies renouvelables",
+                    "texte": "Les technologies renouvelables incluent le solaire, l'éolien...",
+                    "image": {
+                        "lien_image": "https://example.com/renewable_tech.jpg",
+                        "titre_image": "Technologies renouvelables",
+                        "description_image": "Les principales technologies d'énergies renouvelables."
+                    }
+                },
+                {
+                    "titre": "Impact environnemental",
+                    "texte": "Les énergies renouvelables ont un impact environnemental significatif...",
+                    "image": {
+                        "lien_image": "https://example.com/renewable_impact.jpg",
+                        "titre_image": "Impact environnemental",
+                        "description_image": "L'impact des énergies renouvelables sur l'environnement."
+                    }
+                }
+            ],
+            "date_publication": "2024-06-07",
+            "auteurs": ["Paul Bertrand", "Isabelle Perrin"]
+        },
+        {
+            "titre": "L'évolution des jeux vidéo",
+            "image_principale": {
+                "lien_image": "https://example.com/video_games.jpg",
+                "titre_image": "Jeux Vidéo",
+                "description_image": "L'évolution des jeux vidéo au fil des ans."
+            },
+            "contenus": [
+                {
+                    "titre": "Histoire des jeux vidéo",
+                    "texte": "Les jeux vidéo ont une histoire riche et fascinante...",
+                    "image": {
+                        "lien_image": "https://example.com/video_games_history.jpg",
+                        "titre_image": "Histoire des jeux vidéo",
+                        "description_image": "Les premières consoles de jeux vidéo."
+                    }
+                },
+                {
+                    "titre": "Technologie des jeux vidéo",
+                    "texte": "La technologie derrière les jeux vidéo a énormément évolué...",
+                    "image": {
+                        "lien_image": "https://example.com/video_games_tech.jpg",
+                        "titre_image": "Technologie des jeux vidéo",
+                        "description_image": "Les avancées technologiques dans les jeux vidéo."
+                    }
+                },
+                {
+                    "titre": "Impact culturel",
+                    "texte": "Les jeux vidéo ont un impact culturel important...",
+                    "image": {
+                        "lien_image": "https://example.com/video_games_impact.jpg",
+                        "titre_image": "Impact culturel",
+                        "description_image": "L'impact des jeux vidéo sur la culture populaire."
+                    }
+                }
+            ],
+            "date_publication": "2024-06-07",
+            "auteurs": ["Claire Dufresne", "Maxime Caron"]
+        }
+    ]
+}
