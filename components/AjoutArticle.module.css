@@ -1,6 +1,6 @@
 .ajoutArticle {
     width: 60%;
-    margin: 270px auto;
+    margin: 270px auto auto auto;
     padding: 20px;
     border: 1px solid #e0e0e0;
     border-radius: 16px;
