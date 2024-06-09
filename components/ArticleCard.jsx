@@ -1,14 +1,27 @@
+// components/ArticleCard.jsx
+
 import React from 'react';
 import styles from './ArticleCard.module.css';
 
-export default function ArticleCard({ article }) {
+const ArticleCard = ({ article }) => {
+    const hasImage = article.image_principale && article.image_principale.lien_image;
+    const hasAuthors = Array.isArray(article.auteurs) && article.auteurs.length > 0;
+
     return (
         <div className={styles.card}>
-            <img src={article.image_principale.lien_image} alt={article.image_principale.description_image} className={styles.image} />
+            {hasImage && (
+                <img 
+                    src={article.image_principale.lien_image} 
+                    alt={article.image_principale.titre_image} 
+                />
+            )}
             <div className={styles.content}>
                 <h3>{article.titre}</h3>
-                <p>By {article.auteurs.join(', ')}</p>
+                {hasAuthors && <p>By {article.auteurs.join(', ')}</p>}
             </div>
         </div>
     );
-}
+};
+
+export default ArticleCard;
+

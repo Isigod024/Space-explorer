@@ -1,4 +1,4 @@
-<<<<<< Updated upstream
+
 {
     "articles": [
         {
@@ -429,12 +429,10 @@
             ],
             "date_publication": "2024-06-07",
             "auteurs": ["Claire Dufresne", "Maxime Caron"]
-        }
-    ]
-}
-=======
-[
-    {
+        },
+    
+
+  {
         "title": "Exploring the Milky Way",
         "image": "/nebuleuse.webp",
         "content": "An in-depth look at our galaxy...",
@@ -483,5 +481,5 @@
         "date": "31/05/2024",
         "author": "Sarah Green"
     }
-]
->>>>>>> Stashed changes
+    ]}
+

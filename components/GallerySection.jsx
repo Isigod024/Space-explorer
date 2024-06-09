@@ -3,7 +3,9 @@ import styles from './GallerySection.module.css';
 import articles from '../data/Articles.json';
 
 function getRandomImages(articleData, num) {
-    const images = articleData.articles.map(article => article.image_principale.lien_image);
+    const images = articleData.articles
+        .map(article => article.image_principale && article.image_principale.lien_image)
+        .filter(image => image !== undefined);
     const shuffled = [...images].sort(() => 0.5 - Math.random());
     return shuffled.slice(0, num);
 }
@@ -22,3 +24,6 @@ export default function GallerySection() {
         </section>
     );
 }
+
+    
+

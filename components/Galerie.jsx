@@ -1,4 +1,3 @@
-
 'use client';
 import React, { useState, useEffect } from 'react';
 import articles from '../data/articles';
@@ -22,10 +21,16 @@ const Galerie = () => {
   }, []);
 
   const images = articles.articles.reduce((acc, article) => {
-    acc.push(article.image_principale);
-    article.contenus.forEach(content => {
-      if (content.image) acc.push(content.image);
-    });
+    if (article.image_principale && article.image_principale.lien_image) {
+      acc.push(article.image_principale);
+    }
+    if (Array.isArray(article.contenus)) {
+      article.contenus.forEach(content => {
+        if (content.image && content.image.lien_image) {
+          acc.push(content.image);
+        }
+      });
+    }
     return acc;
   }, []);
 
@@ -47,14 +52,18 @@ const Galerie = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    const updatedImages = [...userImages, newImage];
-    setUserImages(updatedImages);
-    localStorage.setItem('userImages', JSON.stringify(updatedImages)); // Save to local storage
-    setNewImage({
-      lien_image: '',
-      titre_image: '',
-      description_image: ''
-    });
+    if (newImage.lien_image && newImage.titre_image && newImage.description_image) {
+      const updatedImages = [...userImages, newImage];
+      setUserImages(updatedImages);
+      localStorage.setItem('userImages', JSON.stringify(updatedImages)); // Save to local storage
+      setNewImage({
+        lien_image: '',
+        titre_image: '',
+        description_image: ''
+      });
+    } else {
+      alert('Please fill in all fields');
+    }
   };
 
   return (
@@ -108,5 +117,7 @@ const Galerie = () => {
 };
 
 export default Galerie;
+
+
 
 
