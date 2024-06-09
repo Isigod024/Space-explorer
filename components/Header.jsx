@@ -45,11 +45,11 @@ export default function Header() {
       <div className={`${styles.navContainer} ${navVisible ? styles.shownavContainer : ''}`}>
         <nav className={styles.nav}>
           <ul className={styles.navList}>
-                    <li className={styles.navItem}><Link href="/">Accueil</Link></li>
-                    <li className={styles.navItem}><Link href="/Galerie">Galerie</Link></li>
-                    <li className={styles.navItem}><Link href="/AddArticle">Ajout d'article</Link></li>
-                    <li className={styles.navItem}><Link href="/connexion">Connexion</Link></li>
-                    <li className={styles.navItem}><Link href="/Contact">Contact</Link></li>
+                    <li className={styles.navItem}><Link href="/" onClick={toggleNav}>Accueil</Link></li>
+                    <li className={styles.navItem}><Link href="/Galerie" onClick={toggleNav}>Galerie</Link></li>
+                    <li className={styles.navItem}><Link href="/AddArticle" onClick={toggleNav}>Ajout d'article</Link></li>
+                    <li className={styles.navItem}><Link href="/connexion" onClick={toggleNav}>Connexion</Link></li>
+                    <li className={styles.navItem}><Link href="/Contact" onClick={toggleNav}>Contact</Link></li>
                 </ul>
         </nav>
       </div>
