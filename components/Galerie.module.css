@@ -1,3 +1,25 @@
+.galerieContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formContainer {
+  margin-bottom: 40px;
+}
+
+.galerie {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.galerie img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));

@@ -1,3 +1,4 @@
+<<<<<< Updated upstream
 {
     "articles": [
         {
@@ -431,3 +432,56 @@
         }
     ]
 }
+=======
+[
+    {
+        "title": "Exploring the Milky Way",
+        "image": "/nebuleuse.webp",
+        "content": "An in-depth look at our galaxy...",
+        "date": "31/05/2024",
+        "author": "Jane Doe"
+    },
+    {
+        "title": "Mars Rover Discoveries",
+        "image": "/nebuleuse.webp",
+        "content": "Recent findings from the Mars Rover...",
+        "date": "31/05/2024",
+        "author": "John Smith"
+    },
+    {
+        "title": "Black Hole Mysteries",
+        "image": "/nebuleuse.webp",
+        "content": "The enigma of black holes...",
+        "date": "31/05/2024",
+        "author": "Alice Johnson"
+    },
+    {
+        "title": "The Future of Space Travel",
+        "image": "/Galaxy.gif",
+        "content": "What lies ahead for humanity...",
+        "date": "31/05/2024",
+        "author": "Mark Brown"
+    },
+    {
+        "title": "Alien Life: Fact or Fiction?",
+        "image": "/nebuleuse.webp",
+        "content": "Exploring the possibilities of extraterrestrial life...",
+        "date": "31/05/2024",
+        "author": "Sarah Green"
+    },
+    {
+        "title": "Alien Life: Fact or Fiction?",
+        "image": "/nebuleuse.webp",
+        "content": "Exploring the possibilities of extraterrestrial life...",
+        "date": "31/05/2024",
+        "author": "Sarah Green"
+    },
+    {
+        "title": "Alien Life: Fact or Fiction?",
+        "image": "/nebuleuse.webp",
+        "content": "Exploring the possibilities of extraterrestrial life...",
+        "date": "31/05/2024",
+        "author": "Sarah Green"
+    }
+]
+>>>>>>> Stashed changes
