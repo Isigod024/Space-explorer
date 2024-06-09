@@ -17,9 +17,9 @@ return (
     <html lang='en'>
       <body className={inter.className}>
         <Header setPage={setPage} />
-        {children}
         <main className={styles.main}>
-          {page === 'accueil' ? 
+        {children}
+          {/* {page === 'accueil' ? 
             <Acceuil />
            : page === 'Galerie' ? 
             <Galerie />
@@ -33,7 +33,7 @@ return (
             <Contact />
 
            : <div>404 - Not Found</div>
-          }
+          } */}
         </main>
         <Footer />
       </body>

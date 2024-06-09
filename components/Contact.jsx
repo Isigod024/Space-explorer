@@ -3,7 +3,7 @@ import styles from './Contact.module.css'; // Assurez-vous que le chemin est cor
 
 const contacts = [
   { name: 'Yanik', email: 'yanik@example.com', phone: '123-456-7890' },
-  { name: 'Isodore', email: 'isodore@example.com', phone: '123-456-7891' },
+  { name: 'Isidore', email: 'isodore@example.com', phone: '123-456-7891' },
   { name: 'Fabrice', email: 'fabrice@example.com', phone: '123-456-7892' }
 ];
 

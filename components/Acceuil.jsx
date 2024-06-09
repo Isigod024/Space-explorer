@@ -11,7 +11,6 @@ import Newsletter from './Newsletter';
 export default function Acceuil() {
     return (
         <div className={styles.container}>
-            <Header />
             <main className={styles.main}>
                 <HeroSection />
                 <FeaturedSection />
@@ -19,7 +18,6 @@ export default function Acceuil() {
                 <GallerySection />
                 <Newsletter />
             </main>
-            <Footer />
         </div>
     );
 }

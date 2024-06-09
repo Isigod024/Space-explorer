@@ -5,6 +5,7 @@ import styles from './Header.module.css';
 import Image from 'next/image';
 import Logo from '@/public/Space_Explorer.webp';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import Link from 'next/link';
 
 export default function Header() {
     const [isVisible, setIsVisible] = useState(true);
@@ -44,11 +45,11 @@ export default function Header() {
       <div className={`${styles.navContainer} ${navVisible ? styles.shownavContainer : ''}`}>
         <nav className={styles.nav}>
           <ul className={styles.navList}>
-                    <li className={styles.navItem}><a href='#' onClick={() => setPage('accueil')}> Accueil</a></li>
-                    <li className={styles.navItem}><a href='#' onClick={() => setPage('Galerie')}>Galerie</a></li>
-                    <li className={styles.navItem}><a href='#' onClick={() => setPage('Ajout d article')}>Ajout d'article</a></li>
-                    <li className={styles.navItem}><a href='#' onClick={() => setPage('connexion')}> Connexion</a></li>
-                    <li className={styles.navItem}><a href="#" onClick={() => setPage('Contact')}>Contact</a></li>
+                    <li className={styles.navItem}><Link href="/">Accueil</Link></li>
+                    <li className={styles.navItem}><Link href="/Galerie">Galerie</Link></li>
+                    <li className={styles.navItem}><Link href="/AddArticle">Ajout d'article</Link></li>
+                    <li className={styles.navItem}><Link href="/connexion">Connexion</Link></li>
+                    <li className={styles.navItem}><Link href="/Contact">Contact</Link></li>
                 </ul>
         </nav>
       </div>

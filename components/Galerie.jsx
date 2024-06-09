@@ -40,6 +40,8 @@
 // Galerie.jsx
 // Galerie.jsx
 // Galerie.jsx
+
+'use client'
 import React, { useState } from 'react';
 import articles from '../data/articles';
 import styles from './Galerie.module.css';
