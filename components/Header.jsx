@@ -39,7 +39,7 @@ export default function Header() {
                 {navVisible ? <FaTimes /> : <FaBars />}
             </button>
       <div className={styles.logo}>
-        <Image src={Logo} alt="Logo" className={styles.ImageLogo} />
+        <Link href="/"><Image src={Logo} alt="Logo" className={styles.ImageLogo} /></Link>
         <h1>SPACE EXPLORER</h1>
       </div>
       <div className={`${styles.navContainer} ${navVisible ? styles.shownavContainer : ''}`}>
