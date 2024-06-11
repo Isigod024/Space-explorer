@@ -13,6 +13,7 @@ const ArticleCard = ({ article }) => {
                 <img 
                     src={article.image_principale.lien_image} 
                     alt={article.image_principale.titre_image} 
+                    className={styles.image}
                 />
             )}
             <div className={styles.content}>
