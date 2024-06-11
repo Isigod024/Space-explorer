@@ -11,7 +11,7 @@
 .galerie {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 40px;
 }
 
 .galerie img {
@@ -23,8 +23,8 @@
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-  padding: 20px;
+  gap: 40px;
+  padding: 40px;
   margin: 250px 0;
 }
 
@@ -32,7 +32,7 @@
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
@@ -40,7 +40,7 @@
 .card img {
   width: 100%;
   height: auto;
-  border-radius: 20px;
+  border-radius: 40px;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -70,8 +70,8 @@
   max-height: 90%;
   text-align: center;
   background: linear-gradient(135deg, #f06, #4a90e2); /* Adding gradient background */
-  padding: 20px;
-  border-radius: 20px;
+  padding: 40px;
+  border-radius: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   overflow: auto;
 }
@@ -79,25 +79,25 @@
 .largeImage {
   max-width: 70%;
   height: auto;
-  border-radius: 20px;
+  border-radius: 40px;
 }
 
 .imageInfo {
-  margin-top: 10px;
+  margin-top: 20px;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 20px;
-  border-radius: 10px;
+  padding: 40px;
+  border-radius: 20px;
   max-width: 100%;
 }
 
 .imageInfo h2 {
-  font-size: 1.5em;
+  font-size: 2.5em;
   margin: 10px 0;
 }
 
 .imageInfo p {
-  font-size: 1em;
+  font-size: 2em;
 }
 
 @keyframes fadeIn {
