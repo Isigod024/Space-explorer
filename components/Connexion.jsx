@@ -18,7 +18,7 @@ const Connexion = () => {
   };
 
   return (
-    <div style={{ maxWidth: '400px', margin: '0 auto', padding: '1rem', border: '1px solid #ccc', borderRadius: '4px' }}>
+    <div style={{ maxWidth: '400px', margin: '300px auto 100% auto', padding: '1rem', border: '1px solid #ccc', borderRadius: '4px' , backgroundColor: 'white'}}>
       <h1>Connexion</h1>
       <p>Connectez-vous à votre compte.</p>
       <form onSubmit={handleSubmit}>

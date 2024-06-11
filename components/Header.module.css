@@ -69,6 +69,19 @@
     box-shadow: 2px 4px 6px var(--shadow-Color);
 }
 
+.navItem .active {
+    position: relative;
+    color: var(--Active-Text);
+    text-shadow: 0 0 8px var(--Glow-Color), 0 0 12px var(--Glow-Color), 0 0 16px var(--Glow-Color);
+    animation: glowing 1.5s infinite;
+}
+
+@keyframes glowing {
+    0% { text-shadow: 0 0 5px var(--Glow-Color), 0 0 10px var(--Glow-Color), 0 0 15px var(--Glow-Color); }
+    50% { text-shadow: 0 0 15px var(--Glow-Color), 0 0 20px var(--Glow-Color), 0 0 25px var(--Glow-Color); }
+    100% { text-shadow: 0 0 5px var(--Glow-Color), 0 0 10px var(--Glow-Color), 0 0 15px var(--Glow-Color); }
+}
+
 .navList {
     display: flex;
     list-style: none;

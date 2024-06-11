@@ -1,39 +1,20 @@
+// layout.jsx
 'use client'
 import Header from '@/components/Header';
-import { Inter } from 'next/font/google';
-import './globals.css';
+import { Inter } from "next/font/google";
 import Footer from '@/components/Footer';
-// import Contact from '@/components/Contact';
-// import Connexion from '@/components/Connexion';
-// import Acceuil from '@/components/Acceuil';
-// import Galerie from '@/components/Galerie';
-// import AjoutDArticle from '@/components/AjoutArticle';
-import { useState } from 'react';
+import "./globals.css";
 import styles from './layout.module.css';
-const inter = Inter({ subsets: ['latin'] });
-export default function RootLayout({ children }) {
-  const [page, setPage] = useState('Ajout d article');
-return (
-    <html lang='en'>
-      <body className={inter.className}>
-        <Header setPage={setPage} />
-        <main className={styles.main}>
-        {children}
-          {/* {page === 'accueil' ? 
-            <Acceuil />
-           : page === 'Galerie' ? 
-            <Galerie />
-           : page === 'Article' ? 
-            <article />
-           : page === 'Ajout d article' ? 
-            <AjoutDArticle />
-           : page === 'connexion' ? 
-            <Connexion />
-           : page === 'Contact' ? 
-            <Contact />
 
-           : <div>404 - Not Found</div>
-          } */}
+const inter = Inter({ subsets: ["latin"] });
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className={inter.className + ' ' + styles.body}>
+        <Header />
+        <main className={styles.main}>
+          {children}
         </main>
         <Footer />
       </body>
