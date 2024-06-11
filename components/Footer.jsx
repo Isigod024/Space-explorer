@@ -1,4 +1,6 @@
+'use client'
 import styles from './Footer.module.css';
+import Link from 'next/link'
 
 export default function Footer() {
     return (
@@ -8,16 +10,16 @@ export default function Footer() {
                 <div className={styles.column}>
                     <h4>Information</h4>
                     <ul>
-                        <li><a href="/a-propos-de-nous">À Propos De Nous</a></li>
-                        <li><a href="/contactez-nous">Contactez-Nous</a></li>
-                        <li><a href="/politique-de-confidentialite">Politique De Confidentialité</a></li>
+                        <li><Link href="/a-propos-de-nous">À Propos De Nous</Link></li>
+                        <li><Link href="/contactez-nous">Contactez-Nous</Link></li>
+                        <li><Link href="/politique-de-confidentialite">Politique De Confidentialité</Link></li>
                     </ul>
                 </div>
                 <div className={styles.column}>
                     <h4>Besoin D'aide?</h4>
                     <ul>
-                        <li><a href="/votre-compte">Votre Compte</a></li>
-                        <li><a href="/faq">FAQ</a></li>
+                        <li><Link href="/votre-compte">Votre Compte</Link></li>
+                        <li><Link href="/faq">FAQ</Link></li>
                     </ul>
                 </div>
             </div>
