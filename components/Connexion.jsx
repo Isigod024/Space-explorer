@@ -1,5 +1,6 @@
 'use client'
 import React, { useState } from 'react';
+import styles from './Connexion.module.css';
 
 const Connexion = () => {
   const [email, setEmail] = useState('');
@@ -8,7 +9,6 @@ const Connexion = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
 
     if (email === 'user@example.com' && password === 'password') {
       alert('Login successful');
@@ -22,30 +22,30 @@ const Connexion = () => {
       <h1>Connexion</h1>
       <p>Connectez-vous à votre compte.</p>
       <form onSubmit={handleSubmit}>
-        <div style={{ marginBottom: '1rem' }}>
-          <label htmlFor="email">Email</label>
+        <div className={styles.formGroup}>
+          <label htmlFor="email" className={styles.label}>Email</label>
           <input
             type="email"
             id="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            style={{ width: '100%', padding: '0.5rem', border: '1px solid #ccc', borderRadius: '4px' }}
+            className={styles.input}
           />
         </div>
-        <div style={{ marginBottom: '1rem' }}>
-          <label htmlFor="password">Mot de passe</label>
+        <div className={styles.formGroup}>
+          <label htmlFor="password" className={styles.label}>Mot de passe</label>
           <input
             type="password"
             id="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
-            style={{ width: '100%', padding: '0.5rem', border: '1px solid #ccc', borderRadius: '4px' }}
+            className={styles.input}
           />
         </div>
-        {error && <p style={{ color: 'red' }}>{error}</p>}
-        <button type="submit" style={{ width: '100%', padding: '0.5rem', backgroundColor: '#0070f3', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>Se connecter</button>
+        {error && <p className={styles.error}>{error}</p>}
+        <button type="submit" className={styles.button}>Se connecter</button>
       </form>
     </div>
   );
