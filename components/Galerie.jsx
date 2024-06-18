@@ -9,7 +9,7 @@ const Galerie = () => {
   const [newImage, setNewImage] = useState({
     lien_image: '',
     titre_image: '',
-    description_image: '',
+    description_image: ''
   });
 
   useEffect(() => {
