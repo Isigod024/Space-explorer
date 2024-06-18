@@ -13,7 +13,7 @@ const Galerie = () => {
   });
 
   useEffect(() => {
-    // Load user images from local storage
+    // Charger les images de l'utilisateur depuis le stockage local
     const storedImages = JSON.parse(localStorage.getItem('userImages'));
     if (storedImages) {
       setUserImages(storedImages);
@@ -55,14 +55,14 @@ const Galerie = () => {
     if (newImage.lien_image && newImage.titre_image && newImage.description_image) {
       const updatedImages = [...userImages, newImage];
       setUserImages(updatedImages);
-      localStorage.setItem('userImages', JSON.stringify(updatedImages)); // Save to local storage
+      localStorage.setItem('userImages', JSON.stringify(updatedImages)); // Enregistrer dans le stockage local
       setNewImage({
         lien_image: '',
         titre_image: '',
         description_image: ''
       });
     } else {
-      alert('Please fill in all fields');
+      alert('Veuillez remplir tous les champs');
     }
   };
 
@@ -92,7 +92,7 @@ const Galerie = () => {
           name="lien_image"
           value={newImage.lien_image}
           onChange={handleInputChange}
-          placeholder="Image URL"
+          placeholder="URL de l'image"
           required
         />
         <input
@@ -100,7 +100,7 @@ const Galerie = () => {
           name="titre_image"
           value={newImage.titre_image}
           onChange={handleInputChange}
-          placeholder="Title"
+          placeholder="Titre"
           required
         />
         <textarea
@@ -110,7 +110,7 @@ const Galerie = () => {
           placeholder="Description"
           required
         />
-        <button type="submit">Add Image</button>
+        <button type="submit">Ajouter une image</button>
       </form>
     </div>
   );
