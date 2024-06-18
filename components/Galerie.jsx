@@ -117,7 +117,3 @@ const Galerie = () => {
 };
 
 export default Galerie;
-
-
-
-
