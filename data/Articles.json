@@ -1,485 +1,283 @@
-
 {
     "articles": [
         {
-            "titre": "La révolution de l'intelligence artificielle",
+            "titre": "Les Mystères de l'Univers",
             "image_principale": {
-                "lien_image": "/nebuleuse.webp",
-                "titre_image": "Intelligence Artificielle",
-                "description_image": "Une représentation visuelle de l'intelligence artificielle."
+                "lien_image": "/galaxie.jpg",
+                "titre_image": "Les Mystères de l'Univers",
+                "description_image": "Une vue imprenable d'une galaxie lointaine."
             },
             "contenus": [
                 {
-                    "titre": "Introduction à l'IA",
-                    "texte": "L'intelligence artificielle (IA) est une branche de l'informatique...",
+                    "titre": "La Formation des Étoiles",
+                    "texte": "Les étoiles se forment dans des nuages de gaz et de poussières appelés nébuleuses. Ces nébuleuses sont souvent le berceau de nouvelles étoiles qui émergent de la contraction et de la fusion de ces matériaux interstellaires.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Introduction à l'IA",
-                        "description_image": "Un graphique expliquant les bases de l'IA."
+                        "lien_image": "/formation_etoile.jpg",
+                        "titre_image": "Nébuleuse",
+                        "description_image": "Un nuage de gaz et de poussières où se forment de nouvelles étoiles."
                     }
                 },
                 {
-                    "titre": "Histoire de l'IA",
-                    "texte": "L'histoire de l'intelligence artificielle remonte aux années 1950...",
+                    "titre": "Les Trous Noirs",
+                    "texte": "Les trous noirs sont des objets célestes fascinants et mystérieux. Ils se forment lorsque des étoiles massives s'effondrent sous leur propre gravité à la fin de leur vie. Rien, pas même la lumière, ne peut échapper à l'attraction gravitationnelle d'un trou noir.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Histoire de l'IA",
-                        "description_image": "Un aperçu des premières recherches sur l'IA."
+                        "lien_image": "/trou_noir.jpg",
+                        "titre_image": "Trou Noir",
+                        "description_image": "Une représentation artistique d'un trou noir."
                     }
                 },
                 {
-                    "titre": "Applications modernes de l'IA",
-                    "texte": "Aujourd'hui, l'intelligence artificielle est utilisée dans divers domaines...",
+                    "titre": "Les Galaxies",
+                    "texte": "Les galaxies sont d'immenses ensembles d'étoiles, de gaz, de poussières et de matière noire, liés par la gravité. Elles peuvent contenir des centaines de milliards d'étoiles et se présentent sous différentes formes, telles que les spirales, les elliptiques et les irrégulières.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Applications de l'IA",
-                        "description_image": "Des exemples d'applications modernes de l'IA."
+                        "lien_image": "/galaxie_spirale.jpg",
+                        "titre_image": "Galaxie Spirale",
+                        "description_image": "Une galaxie spirale avec des bras majestueux et lumineux."
                     }
                 }
             ],
-            "date_publication": "2024-06-07",
-            "auteurs": ["Isidore", "Marie Curie"]
+            "date_publication": "2024-06-17",
+            "auteurs": ["Isidore", "Neil deGrasse Tyson"]
         },
         {
-            "titre": "Les avancées en robotique",
+            "titre": "L'Exploration de Mars",
             "image_principale": {
-                "lien_image": "/nebuleuse.webp",
-                "titre_image": "Avancées en Robotique",
-                "description_image": "Des robots modernes en action."
+                "lien_image": "/mars.jpg",
+                "titre_image": "Mars",
+                "description_image": "La planète rouge, Mars."
             },
             "contenus": [
                 {
-                    "titre": "Évolution de la robotique",
-                    "texte": "La robotique a parcouru un long chemin depuis ses débuts...",
+                    "titre": "Les Missions Vers Mars",
+                    "texte": "Depuis les années 1960, de nombreuses missions ont été envoyées pour explorer Mars, allant des survols et des orbiteurs aux atterrisseurs et rovers. Ces missions ont considérablement élargi notre compréhension de la planète rouge.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Évolution de la robotique",
-                        "description_image": "Des robots anciens comparés à ceux d'aujourd'hui."
+                        "lien_image": "/mars_rover.jpg",
+                        "titre_image": "Rover sur Mars",
+                        "description_image": "Un rover explorant la surface de Mars."
                     }
                 },
                 {
-                    "titre": "Robotique et IA",
-                    "texte": "La combinaison de la robotique et de l'IA a ouvert de nouvelles possibilités...",
+                    "titre": "La Recherche de la Vie sur Mars",
+                    "texte": "L'une des principales motivations pour explorer Mars est la recherche de signes de vie, passée ou présente. Les scientifiques cherchent des preuves d'eau liquide, de composés organiques et de conditions habitables.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Robotique et IA",
-                        "description_image": "Un robot équipé d'intelligence artificielle."
+                        "lien_image": "/mars_water.jpg",
+                        "titre_image": "Eau sur Mars",
+                        "description_image": "Des preuves d'anciennes rivières et lacs sur Mars."
                     }
                 },
                 {
-                    "titre": "Applications industrielles",
-                    "texte": "Les robots sont désormais couramment utilisés dans l'industrie...",
+                    "titre": "Les Projets Futurs",
+                    "texte": "Les projets futurs pour l'exploration de Mars comprennent des missions habitées, des bases permanentes et peut-être même la terraformation de la planète pour la rendre habitable pour les humains.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Robots industriels",
-                        "description_image": "Des robots travaillant dans une usine."
+                        "lien_image": "/mars_base.jpg",
+                        "titre_image": "Base sur Mars",
+                        "description_image": "Une base humaine hypothétique sur Mars."
                     }
                 }
             ],
-            "date_publication": "2024-06-07",
-            "auteurs": ["Alice Martin", "Pierre Durand"]
+            "date_publication": "2024-06-17",
+            "auteurs": ["Isidore", "Elon Musk"]
         },
         {
-            "titre": "L'ère des véhicules autonomes",
+            "titre": "Les Satellites et Leur Rôle",
             "image_principale": {
-                "lien_image": "/nebuleuse.webp",
-                "titre_image": "Véhicules Autonomes",
-                "description_image": "Une voiture autonome en mouvement."
+                "lien_image": "/satellite.jpg",
+                "titre_image": "Satellite",
+                "description_image": "Un satellite en orbite autour de la Terre."
             },
             "contenus": [
                 {
-                    "titre": "Introduction aux véhicules autonomes",
-                    "texte": "Les véhicules autonomes représentent l'avenir du transport...",
+                    "titre": "Les Types de Satellites",
+                    "texte": "Il existe différents types de satellites, chacun ayant une fonction spécifique : les satellites de communication, les satellites météorologiques, les satellites d'observation de la Terre, et les satellites scientifiques.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Introduction aux véhicules autonomes",
-                        "description_image": "Les bases de la technologie des véhicules autonomes."
+                        "lien_image": "/satellite_types.jpg",
+                        "titre_image": "Types de Satellites",
+                        "description_image": "Les différents types de satellites en orbite."
                     }
                 },
                 {
-                    "titre": "Technologie sous-jacente",
-                    "texte": "La technologie derrière les véhicules autonomes est complexe...",
+                    "titre": "Le Lancement des Satellites",
+                    "texte": "Le lancement de satellites est un processus complexe qui implique des fusées puissantes et une planification minutieuse pour placer le satellite en orbite correcte.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Technologie des véhicules autonomes",
-                        "description_image": "Les capteurs et systèmes utilisés dans les véhicules autonomes."
+                        "lien_image": "/rocket_launch.jpg",
+                        "titre_image": "Lancement de Fusée",
+                        "description_image": "Le lancement d'une fusée transportant un satellite."
                     }
                 },
                 {
-                    "titre": "Défis et opportunités",
-                    "texte": "Les véhicules autonomes présentent à la fois des défis et des opportunités...",
+                    "titre": "Les Défis de l'Orbite",
+                    "texte": "Les satellites en orbite doivent faire face à divers défis, y compris la gestion de la durée de vie des batteries, l'évitement des débris spatiaux, et la maintenance à distance.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Défis des véhicules autonomes",
-                        "description_image": "Les principaux défis auxquels sont confrontés les véhicules autonomes."
+                        "lien_image": "/space_debris.jpg",
+                        "titre_image": "Débris Spatiaux",
+                        "description_image": "Des débris spatiaux entourant la Terre."
                     }
                 }
             ],
-            "date_publication": "2024-06-07",
-            "auteurs": ["Sophie Leblanc", "David Moreau"]
+            "date_publication": "2024-06-17",
+            "auteurs": ["Isidore", "Arthur C. Clarke"]
         },
         {
-            "titre": "La montée de la blockchain",
+            "titre": "Les Planètes du Système Solaire",
             "image_principale": {
-                "lien_image": "/nebuleuse.webp",
-                "titre_image": "Blockchain",
-                "description_image": "Un schéma représentant la technologie blockchain."
+                "lien_image": "/systeme_solaire.jpg",
+                "titre_image": "Système Solaire",
+                "description_image": "Les planètes de notre système solaire."
             },
             "contenus": [
                 {
-                    "titre": "Qu'est-ce que la blockchain?",
-                    "texte": "La blockchain est une technologie de stockage et de transmission d'informations...",
+                    "titre": "Mercure",
+                    "texte": "Mercure est la planète la plus proche du Soleil. Elle est connue pour ses températures extrêmes et sa surface criblée de cratères.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Introduction à la blockchain",
-                        "description_image": "Les bases de la technologie blockchain."
+                        "lien_image": "/mercure.jpg",
+                        "titre_image": "Mercure",
+                        "description_image": "La surface criblée de cratères de Mercure."
                     }
                 },
                 {
-                    "titre": "Applications de la blockchain",
-                    "texte": "La blockchain trouve des applications dans divers domaines...",
+                    "titre": "Vénus",
+                    "texte": "Vénus est souvent appelée la 'sœur jumelle' de la Terre en raison de sa taille similaire. Cependant, son atmosphère dense et acide et ses températures élevées la rendent très différente.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Applications de la blockchain",
-                        "description_image": "Les principales applications de la blockchain."
+                        "lien_image": "/venus.jpg",
+                        "titre_image": "Vénus",
+                        "description_image": "La surface et l'atmosphère denses de Vénus."
                     }
                 },
                 {
-                    "titre": "Futur de la blockchain",
-                    "texte": "La blockchain a le potentiel de transformer de nombreux secteurs...",
+                    "titre": "La Terre",
+                    "texte": "La Terre est la seule planète connue pour abriter la vie. Elle possède une atmosphère riche en oxygène, des océans d'eau liquide, et une diversité de climats et d'écosystèmes.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Futur de la blockchain",
-                        "description_image": "Les perspectives d'avenir pour la blockchain."
+                        "lien_image": "/terre.jpg",
+                        "titre_image": "La Terre",
+                        "description_image": "Une vue de la Terre depuis l'espace."
+                    }
+                },
+                {
+                    "titre": "Mars",
+                    "texte": "Mars, souvent appelée la 'planète rouge' en raison de son sol riche en fer, est une cible majeure pour l'exploration spatiale en raison de sa similitude potentielle avec la Terre.",
+                    "image": {
+                        "lien_image": "/mars.jpg",
+                        "titre_image": "Mars",
+                        "description_image": "La surface rouge de Mars."
+                    }
+                },
+                {
+                    "titre": "Jupiter",
+                    "texte": "Jupiter est la plus grande planète du système solaire. Elle est célèbre pour sa Grande Tache Rouge, une tempête géante qui fait rage depuis des siècles.",
+                    "image": {
+                        "lien_image": "/jupiter.jpg",
+                        "titre_image": "Jupiter",
+                        "description_image": "La Grande Tache Rouge de Jupiter."
+                    }
+                },
+                {
+                    "titre": "Saturne",
+                    "texte": "Saturne est facilement reconnaissable par ses magnifiques anneaux. Ces anneaux sont composés de glace et de poussières et sont visibles même avec un petit télescope.",
+                    "image": {
+                        "lien_image": "/saturne.jpg",
+                        "titre_image": "Saturne",
+                        "description_image": "Les anneaux majestueux de Saturne."
+                    }
+                },
+                {
+                    "titre": "Uranus",
+                    "texte": "Uranus est unique en raison de son axe de rotation fortement incliné. Cela signifie qu'elle roule sur son orbite, contrairement aux autres planètes.",
+                    "image": {
+                        "lien_image": "/uranus.jpg",
+                        "titre_image": "Uranus",
+                        "description_image": "La planète bleue d'Uranus."
+                    }
+                },
+                {
+                    "titre": "Neptune",
+                    "texte": "Neptune est la planète la plus éloignée du Soleil. Elle est connue pour ses vents violents et sa Grande Tache Sombre, une tempête comparable à celle de Jupiter.",
+                    "image": {
+                        "lien_image": "/neptune.jpg",
+                        "titre_image": "Neptune",
+                        "description_image": "La surface bleue et la Grande Tache Sombre de Neptune."
                     }
                 }
             ],
-            "date_publication": "2024-06-07",
-            "auteurs": ["Lucile Bernard", "Antoine Girard"]
+            "date_publication": "2024-06-17",
+            "auteurs": ["Isidore", "Carl Sagan"]
         },
         {
-            "titre": "Les secrets de la cybersécurité",
+            "titre": "L'Astronomie et ses Découvertes",
             "image_principale": {
-                "lien_image": "/nebuleuse.webp",
-                "titre_image": "Cybersécurité",
-                "description_image": "Une illustration de la cybersécurité en action."
+                "lien_image": "/astronomie.jpg",
+                "titre_image": "L'Astronomie",
+                "description_image": "Les merveilles de l'univers révélées par l'astronomie."
             },
             "contenus": [
                 {
-                    "titre": "Introduction à la cybersécurité",
-                    "texte": "La cybersécurité est essentielle dans le monde numérique actuel...",
+                    "titre": "L'Origine de l'Univers",
+                    "texte": "L'une des questions fondamentales en astronomie est de comprendre comment l'univers a commencé. La théorie du Big Bang est actuellement la plus acceptée pour expliquer l'origine de l'univers.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Introduction à la cybersécurité",
-                        "description_image": "Les bases de la cybersécurité."
+                        "lien_image": "/big_bang.jpg",
+                        "titre_image": "Le Big Bang",
+                        "description_image": "Une représentation du Big Bang."
                     }
                 },
                 {
-                    "titre": "Menaces et vulnérabilités",
-                    "texte": "Les menaces et vulnérabilités en cybersécurité sont nombreuses...",
+                    "titre": "Les Exoplanètes",
+                    "texte": "Les exoplanètes sont des planètes situées en dehors de notre système solaire. Leur découverte ouvre de nouvelles perspectives pour la recherche de la vie extraterrestre.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Menaces en cybersécurité",
-                        "description_image": "Les principales menaces en cybersécurité."
+                        "lien_image": "/exoplanete.jpg",
+                        "titre_image": "Exoplanète",
+                        "description_image": "Une exoplanète orbitant autour d'une étoile lointaine."
                     }
                 },
                 {
-                    "titre": "Stratégies de protection",
-                    "texte": "Il existe diverses stratégies pour protéger les systèmes informatiques...",
+                    "titre": "Les Pulsars et les Quasars",
+                    "texte": "Les pulsars et les quasars sont deux types d'objets astronomiques extrêmes. Les pulsars sont des étoiles à neutrons qui émettent des faisceaux de radiation, tandis que les quasars sont des noyaux galactiques actifs extrêmement lumineux.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Stratégies de protection",
-                        "description_image": "Les meilleures pratiques en matière de cybersécurité."
+                        "lien_image": "/pulsar.jpg",
+                        "titre_image": "Pulsar",
+                        "description_image": "Un pulsar émettant des faisceaux de radiation."
                     }
                 }
             ],
-            "date_publication": "2024-06-07",
-            "auteurs": ["Nicolas Petit", "Elise Laurent"]
+            "date_publication": "2024-06-17",
+            "auteurs": ["Isidore", "Stephen Hawking"]
         },
         {
-            "titre": "L'impact des réseaux sociaux",
+            "titre": "Les Phénomènes Célestes",
             "image_principale": {
-                "lien_image": "/nebuleuse.webp",
-                "titre_image": "Réseaux Sociaux",
-                "description_image": "Les réseaux sociaux et leur impact sur la société."
+                "lien_image": "/phenomenes_celestes.jpg",
+                "titre_image": "Phénomènes Célestes",
+                "description_image": "Des phénomènes célestes observables depuis la Terre."
             },
             "contenus": [
                 {
-                    "titre": "Évolution des réseaux sociaux",
-                    "texte": "Les réseaux sociaux ont évolué de manière significative au fil des ans...",
+                    "titre": "Les Éclipses",
+                    "texte": "Les éclipses, qu'elles soient solaires ou lunaires, sont des phénomènes spectaculaires où la Terre, la Lune et le Soleil s'alignent parfaitement, créant des ombres uniques.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Évolution des réseaux sociaux",
-                        "description_image": "L'histoire et l'évolution des réseaux sociaux."
+                        "lien_image": "/eclipse.jpg",
+                        "titre_image": "Éclipse",
+                        "description_image": "Une éclipse solaire."
                     }
                 },
                 {
-                    "titre": "Impact sur la société",
-                    "texte": "Les réseaux sociaux ont un impact majeur sur la société...",
+                    "titre": "Les Aurores Boréales",
+                    "texte": "Les aurores boréales, également connues sous le nom d'aurores polaires, sont des lumières colorées dans le ciel nocturne causées par les interactions entre les particules solaires et l'atmosphère terrestre.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Impact des réseaux sociaux",
-                        "description_image": "L'impact des réseaux sociaux sur la société moderne."
+                        "lien_image": "/aurores_boreales.jpg",
+                        "titre_image": "Aurores Boréales",
+                        "description_image": "Les lumières colorées des aurores boréales."
                     }
                 },
                 {
-                    "titre": "Futur des réseaux sociaux",
-                    "texte": "Le futur des réseaux sociaux est prometteur et incertain...",
+                    "titre": "Les Pluies de Météores",
+                    "texte": "Les pluies de météores se produisent lorsque la Terre passe à travers des débris laissés par des comètes. Les débris brûlent en entrant dans l'atmosphère, créant des traînées lumineuses.",
                     "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Futur des réseaux sociaux",
-                        "description_image": "Les perspectives d'avenir pour les réseaux sociaux."
+                        "lien_image": "/pluie_meteores.jpg",
+                        "titre_image": "Pluie de Météores",
+                        "description_image": "Une pluie de météores illuminant le ciel."
                     }
                 }
             ],
-            "date_publication": "2024-06-07",
-            "auteurs": ["Juliette Lambert", "Hugo Martin"]
-        },
-        {
-            "titre": "L'évolution de l'e-commerce",
-            "image_principale": {
-                "lien_image": "/nebuleuse.webp",
-                "titre_image": "E-commerce",
-                "description_image": "L'évolution du commerce électronique."
-            },
-            "contenus": [
-                {
-                    "titre": "Historique de l'e-commerce",
-                    "texte": "L'e-commerce a connu une croissance rapide depuis ses débuts...",
-                    "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Historique de l'e-commerce",
-                        "description_image": "Les débuts et l'évolution de l'e-commerce."
-                    }
-                },
-                {
-                    "titre": "Tendances actuelles",
-                    "texte": "Les tendances actuelles de l'e-commerce montrent une forte adoption...",
-                    "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Tendances de l'e-commerce",
-                        "description_image": "Les tendances actuelles dans le domaine de l'e-commerce."
-                    }
-                },
-                {
-                    "titre": "Futur de l'e-commerce",
-                    "texte": "Le futur de l'e-commerce est rempli de nouvelles opportunités...",
-                    "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Futur de l'e-commerce",
-                        "description_image": "Les perspectives d'avenir pour l'e-commerce."
-                    }
-                }
-            ],
-            "date_publication": "2024-06-07",
-            "auteurs": ["Emilie Roy", "Lucas Fournier"]
-        },
-        {
-            "titre": "Les innovations en santé numérique",
-            "image_principale": {
-                "lien_image": "/nebuleuse.webp",
-                "titre_image": "Santé Numérique",
-                "description_image": "Les innovations en santé numérique."
-            },
-            "contenus": [
-                {
-                    "titre": "Introduction à la santé numérique",
-                    "texte": "La santé numérique transforme la manière dont nous gérons notre santé...",
-                    "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Introduction à la santé numérique",
-                        "description_image": "Les bases de la santé numérique."
-                    }
-                },
-                {
-                    "titre": "Technologies de santé numérique",
-                    "texte": "Les technologies de santé numérique incluent des dispositifs connectés...",
-                    "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Technologies de santé numérique",
-                        "description_image": "Les technologies clés en santé numérique."
-                    }
-                },
-                {
-                    "titre": "Impact sur les soins de santé",
-                    "texte": "La santé numérique a un impact majeur sur les soins de santé...",
-                    "image": {
-                        "lien_image": "/nebuleuse.webp",
-                        "titre_image": "Impact de la santé numérique",
-                        "description_image": "Comment la santé numérique change les soins de santé."
-                    }
-                }
-            ],
-            "date_publication": "2024-06-07",
-            "auteurs": ["Anna Mercier", "Thomas Dupuis"]
-        },
-        {
-            "titre": "Les tendances de l'éducation en ligne",
-            "image_principale": {
-                "lien_image": "https://example.com/online_education.jpg",
-                "titre_image": "Éducation en Ligne",
-                "description_image": "Les tendances actuelles de l'éducation en ligne."
-            },
-            "contenus": [
-                {
-                    "titre": "Croissance de l'éducation en ligne",
-                    "texte": "L'éducation en ligne a connu une croissance exponentielle...",
-                    "image": {
-                        "lien_image": "https://example.com/online_education_growth.jpg",
-                        "titre_image": "Croissance de l'éducation en ligne",
-                        "description_image": "L'essor de l'éducation en ligne."
-                    }
-                },
-                {
-                    "titre": "Technologies utilisées",
-                    "texte": "Les technologies utilisées dans l'éducation en ligne sont diverses...",
-                    "image": {
-                        "lien_image": "https://example.com/online_education_tech.jpg",
-                        "titre_image": "Technologies de l'éducation en ligne",
-                        "description_image": "Les technologies clés de l'éducation en ligne."
-                    }
-                },
-                {
-                    "titre": "Impact sur l'apprentissage",
-                    "texte": "L'éducation en ligne a transformé la manière dont nous apprenons...",
-                    "image": {
-                        "lien_image": "https://example.com/online_education_impact.jpg",
-                        "titre_image": "Impact de l'éducation en ligne",
-                        "description_image": "Les effets de l'éducation en ligne sur l'apprentissage."
-                    }
-                }
-            ],
-            "date_publication": "2024-06-07",
-            "auteurs": ["Marc Lefevre", "Sophie Robert"]
-        },
-        {
-            "titre": "Les avancées en énergie renouvelable",
-            "image_principale": {
-                "lien_image": "https://example.com/renewable_energy.jpg",
-                "titre_image": "Énergie Renouvelable",
-                "description_image": "Les innovations en énergie renouvelable."
-            },
-            "contenus": [
-                {
-                    "titre": "Introduction aux énergies renouvelables",
-                    "texte": "Les énergies renouvelables sont cruciales pour un avenir durable...",
-                    "image": {
-                        "lien_image": "https://example.com/renewable_intro.jpg",
-                        "titre_image": "Introduction aux énergies renouvelables",
-                        "description_image": "Les bases des énergies renouvelables."
-                    }
-                },
-                {
-                    "titre": "Technologies renouvelables",
-                    "texte": "Les technologies renouvelables incluent le solaire, l'éolien...",
-                    "image": {
-                        "lien_image": "https://example.com/renewable_tech.jpg",
-                        "titre_image": "Technologies renouvelables",
-                        "description_image": "Les principales technologies d'énergies renouvelables."
-                    }
-                },
-                {
-                    "titre": "Impact environnemental",
-                    "texte": "Les énergies renouvelables ont un impact environnemental significatif...",
-                    "image": {
-                        "lien_image": "https://example.com/renewable_impact.jpg",
-                        "titre_image": "Impact environnemental",
-                        "description_image": "L'impact des énergies renouvelables sur l'environnement."
-                    }
-                }
-            ],
-            "date_publication": "2024-06-07",
-            "auteurs": ["Paul Bertrand", "Isabelle Perrin"]
-        },
-        {
-            "titre": "L'évolution des jeux vidéo",
-            "image_principale": {
-                "lien_image": "https://example.com/video_games.jpg",
-                "titre_image": "Jeux Vidéo",
-                "description_image": "L'évolution des jeux vidéo au fil des ans."
-            },
-            "contenus": [
-                {
-                    "titre": "Histoire des jeux vidéo",
-                    "texte": "Les jeux vidéo ont une histoire riche et fascinante...",
-                    "image": {
-                        "lien_image": "https://example.com/video_games_history.jpg",
-                        "titre_image": "Histoire des jeux vidéo",
-                        "description_image": "Les premières consoles de jeux vidéo."
-                    }
-                },
-                {
-                    "titre": "Technologie des jeux vidéo",
-                    "texte": "La technologie derrière les jeux vidéo a énormément évolué...",
-                    "image": {
-                        "lien_image": "https://example.com/video_games_tech.jpg",
-                        "titre_image": "Technologie des jeux vidéo",
-                        "description_image": "Les avancées technologiques dans les jeux vidéo."
-                    }
-                },
-                {
-                    "titre": "Impact culturel",
-                    "texte": "Les jeux vidéo ont un impact culturel important...",
-                    "image": {
-                        "lien_image": "https://example.com/video_games_impact.jpg",
-                        "titre_image": "Impact culturel",
-                        "description_image": "L'impact des jeux vidéo sur la culture populaire."
-                    }
-                }
-            ],
-            "date_publication": "2024-06-07",
-            "auteurs": ["Claire Dufresne", "Maxime Caron"]
-        },
-    
-
-  {
-        "title": "Exploring the Milky Way",
-        "image": "/nebuleuse.webp",
-        "content": "An in-depth look at our galaxy...",
-        "date": "31/05/2024",
-        "author": "Jane Doe"
-    },
-    {
-        "title": "Mars Rover Discoveries",
-        "image": "/nebuleuse.webp",
-        "content": "Recent findings from the Mars Rover...",
-        "date": "31/05/2024",
-        "author": "John Smith"
-    },
-    {
-        "title": "Black Hole Mysteries",
-        "image": "/nebuleuse.webp",
-        "content": "The enigma of black holes...",
-        "date": "31/05/2024",
-        "author": "Alice Johnson"
-    },
-    {
-        "title": "The Future of Space Travel",
-        "image": "/Galaxy.gif",
-        "content": "What lies ahead for humanity...",
-        "date": "31/05/2024",
-        "author": "Mark Brown"
-    },
-    {
-        "title": "Alien Life: Fact or Fiction?",
-        "image": "/nebuleuse.webp",
-        "content": "Exploring the possibilities of extraterrestrial life...",
-        "date": "31/05/2024",
-        "author": "Sarah Green"
-    },
-    {
-        "title": "Alien Life: Fact or Fiction?",
-        "image": "/nebuleuse.webp",
-        "content": "Exploring the possibilities of extraterrestrial life...",
-        "date": "31/05/2024",
-        "author": "Sarah Green"
-    },
-    {
-        "title": "Alien Life: Fact or Fiction?",
-        "image": "/nebuleuse.webp",
-        "content": "Exploring the possibilities of extraterrestrial life...",
-        "date": "31/05/2024",
-        "author": "Sarah Green"
-    }
-    ]}
-
+            "date_publication": "2024-06-17",
+            "auteurs": ["Isidore", "Galileo Galilei"]
+        }
+    ]
+}
