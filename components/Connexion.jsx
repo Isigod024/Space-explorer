@@ -1,54 +1,61 @@
 'use client'
-import React, { useState } from 'react';
+import { useForm } from 'react-hook-form';
+import styles from './Connexion.module.css';
 
-const Connexion = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
+export default function ConnexionForm() {
+    const {
+        register,
+        handleSubmit,
+        formState: { errors }
+    } = useForm({
+        defaultValues: {
+            email: '',
+            password: ''
+        }
+    });
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+    const onSubmit = data => {
+        console.log(data);
+        if (data.email === 'user@example.com' && data.password === 'password') {
+            alert('Login successful');
+        } else {
+            alert('Invalid email or password');
+        }
+    };
 
-
-    if (email === 'user@example.com' && password === 'password') {
-      alert('Login successful');
-    } else {
-      setError('Invalid email or password');
-    }
-  };
-
-  return (
-    <div style={{ maxWidth: '400px', margin: '300px auto 100% auto', padding: '1rem', border: '1px solid #ccc', borderRadius: '4px' , backgroundColor: 'white'}}>
-      <h1>Connexion</h1>
-      <p>Connectez-vous à votre compte.</p>
-      <form onSubmit={handleSubmit}>
-        <div style={{ marginBottom: '1rem' }}>
-          <label htmlFor="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-            style={{ width: '100%', padding: '0.5rem', border: '1px solid #ccc', borderRadius: '4px' }}
-          />
-        </div>
-        <div style={{ marginBottom: '1rem' }}>
-          <label htmlFor="password">Mot de passe</label>
-          <input
-            type="password"
-            id="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-            style={{ width: '100%', padding: '0.5rem', border: '1px solid #ccc', borderRadius: '4px' }}
-          />
-        </div>
-        {error && <p style={{ color: 'red' }}>{error}</p>}
-        <button type="submit" style={{ width: '100%', padding: '0.5rem', backgroundColor: '#0070f3', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>Se connecter</button>
-      </form>
-    </div>
-  );
-};
-
-export default Connexion;
+    return (
+        <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
+            <label>
+                Courriel:
+                <input
+                    type="email"
+                    {...register("email", {
+                        required: 'Champ obligatoire',
+                        pattern: {
+                            value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+                            message: 'Courriel non valide'
+                        }
+                    })}
+                    placeholder='votre courriel'
+                />
+                <div className={styles.erreur}>{errors.email?.message}</div>
+            </label>
+            <label>
+                Mot de passe:
+                <input
+                    type="password"
+                    {...register("password", {
+                        required: 'Champ obligatoire',
+                        minLength: {
+                            value: 6,
+                            message: "Le mot de passe doit contenir au moins 6 caractères"
+                        }
+                    })}
+                    placeholder='votre mot de passe'
+                />
+                <div className={styles.erreur}>{errors.password?.message}</div>
+            </label>
+            <button type="submit">Se connecter</button>
+        </form>
+    );
+}
