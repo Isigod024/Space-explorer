@@ -1,9 +1,9 @@
 'use client'
 import emailjs from 'emailjs-com';
 
-const SERVICE_ID = 'your_service_id';
-const TEMPLATE_ID = 'your_template_id';
-const USER_ID = 'your_user_id';
+const SERVICE_ID = 'service_fl8vu8v';
+const TEMPLATE_ID = 'template_gowr2kl';
+const USER_ID = '8jL7Xokobsdzl0nvC';
 
 export const sendEmail = (article) => {
     const templateParams = {
