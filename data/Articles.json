@@ -3,7 +3,7 @@
         {
             "titre": "Les Mystères de l'Univers",
             "image_principale": {
-                "lien_image": "/galaxie.jpg",
+                "lien_image": "/galaxie.webp",
                 "titre_image": "Les Mystères de l'Univers",
                 "description_image": "Une vue imprenable d'une galaxie lointaine."
             },
@@ -12,7 +12,7 @@
                     "titre": "La Formation des Étoiles",
                     "texte": "Les étoiles se forment dans des nuages de gaz et de poussières appelés nébuleuses. Ces nébuleuses sont souvent le berceau de nouvelles étoiles qui émergent de la contraction et de la fusion de ces matériaux interstellaires.",
                     "image": {
-                        "lien_image": "/formation_etoile.jpg",
+                        "lien_image": "/formation_etoile.webp",
                         "titre_image": "Nébuleuse",
                         "description_image": "Un nuage de gaz et de poussières où se forment de nouvelles étoiles."
                     }
@@ -21,7 +21,7 @@
                     "titre": "Les Trous Noirs",
                     "texte": "Les trous noirs sont des objets célestes fascinants et mystérieux. Ils se forment lorsque des étoiles massives s'effondrent sous leur propre gravité à la fin de leur vie. Rien, pas même la lumière, ne peut échapper à l'attraction gravitationnelle d'un trou noir.",
                     "image": {
-                        "lien_image": "/trou_noir.jpg",
+                        "lien_image": "/trou_noir.webp",
                         "titre_image": "Trou Noir",
                         "description_image": "Une représentation artistique d'un trou noir."
                     }
@@ -30,7 +30,7 @@
                     "titre": "Les Galaxies",
                     "texte": "Les galaxies sont d'immenses ensembles d'étoiles, de gaz, de poussières et de matière noire, liés par la gravité. Elles peuvent contenir des centaines de milliards d'étoiles et se présentent sous différentes formes, telles que les spirales, les elliptiques et les irrégulières.",
                     "image": {
-                        "lien_image": "/galaxie_spirale.jpg",
+                        "lien_image": "/galaxie_spirale.webp",
                         "titre_image": "Galaxie Spirale",
                         "description_image": "Une galaxie spirale avec des bras majestueux et lumineux."
                     }
@@ -42,7 +42,7 @@
         {
             "titre": "L'Exploration de Mars",
             "image_principale": {
-                "lien_image": "/mars.jpg",
+                "lien_image": "/mars.webp",
                 "titre_image": "Mars",
                 "description_image": "La planète rouge, Mars."
             },
@@ -51,7 +51,7 @@
                     "titre": "Les Missions Vers Mars",
                     "texte": "Depuis les années 1960, de nombreuses missions ont été envoyées pour explorer Mars, allant des survols et des orbiteurs aux atterrisseurs et rovers. Ces missions ont considérablement élargi notre compréhension de la planète rouge.",
                     "image": {
-                        "lien_image": "/mars_rover.jpg",
+                        "lien_image": "/mars_rover.webp",
                         "titre_image": "Rover sur Mars",
                         "description_image": "Un rover explorant la surface de Mars."
                     }
@@ -60,7 +60,7 @@
                     "titre": "La Recherche de la Vie sur Mars",
                     "texte": "L'une des principales motivations pour explorer Mars est la recherche de signes de vie, passée ou présente. Les scientifiques cherchent des preuves d'eau liquide, de composés organiques et de conditions habitables.",
                     "image": {
-                        "lien_image": "/mars_water.jpg",
+                        "lien_image": "/mars_water.webp",
                         "titre_image": "Eau sur Mars",
                         "description_image": "Des preuves d'anciennes rivières et lacs sur Mars."
                     }
@@ -69,7 +69,7 @@
                     "titre": "Les Projets Futurs",
                     "texte": "Les projets futurs pour l'exploration de Mars comprennent des missions habitées, des bases permanentes et peut-être même la terraformation de la planète pour la rendre habitable pour les humains.",
                     "image": {
-                        "lien_image": "/mars_base.jpg",
+                        "lien_image": "/mars_base.webp",
                         "titre_image": "Base sur Mars",
                         "description_image": "Une base humaine hypothétique sur Mars."
                     }
@@ -81,7 +81,7 @@
         {
             "titre": "Les Satellites et Leur Rôle",
             "image_principale": {
-                "lien_image": "/satellite.jpg",
+                "lien_image": "/satellite.webp",
                 "titre_image": "Satellite",
                 "description_image": "Un satellite en orbite autour de la Terre."
             },
@@ -90,7 +90,7 @@
                     "titre": "Les Types de Satellites",
                     "texte": "Il existe différents types de satellites, chacun ayant une fonction spécifique : les satellites de communication, les satellites météorologiques, les satellites d'observation de la Terre, et les satellites scientifiques.",
                     "image": {
-                        "lien_image": "/satellite_types.jpg",
+                        "lien_image": "/satellite_types.webp",
                         "titre_image": "Types de Satellites",
                         "description_image": "Les différents types de satellites en orbite."
                     }
@@ -99,7 +99,7 @@
                     "titre": "Le Lancement des Satellites",
                     "texte": "Le lancement de satellites est un processus complexe qui implique des fusées puissantes et une planification minutieuse pour placer le satellite en orbite correcte.",
                     "image": {
-                        "lien_image": "/rocket_launch.jpg",
+                        "lien_image": "/rocket_launch.webp",
                         "titre_image": "Lancement de Fusée",
                         "description_image": "Le lancement d'une fusée transportant un satellite."
                     }
@@ -108,7 +108,7 @@
                     "titre": "Les Défis de l'Orbite",
                     "texte": "Les satellites en orbite doivent faire face à divers défis, y compris la gestion de la durée de vie des batteries, l'évitement des débris spatiaux, et la maintenance à distance.",
                     "image": {
-                        "lien_image": "/space_debris.jpg",
+                        "lien_image": "/space_debris.webp",
                         "titre_image": "Débris Spatiaux",
                         "description_image": "Des débris spatiaux entourant la Terre."
                     }
@@ -120,7 +120,7 @@
         {
             "titre": "Les Planètes du Système Solaire",
             "image_principale": {
-                "lien_image": "/systeme_solaire.jpg",
+                "lien_image": "/systeme_solaire.webp",
                 "titre_image": "Système Solaire",
                 "description_image": "Les planètes de notre système solaire."
             },
@@ -129,7 +129,7 @@
                     "titre": "Mercure",
                     "texte": "Mercure est la planète la plus proche du Soleil. Elle est connue pour ses températures extrêmes et sa surface criblée de cratères.",
                     "image": {
-                        "lien_image": "/mercure.jpg",
+                        "lien_image": "/mercure.webp",
                         "titre_image": "Mercure",
                         "description_image": "La surface criblée de cratères de Mercure."
                     }
@@ -138,7 +138,7 @@
                     "titre": "Vénus",
                     "texte": "Vénus est souvent appelée la 'sœur jumelle' de la Terre en raison de sa taille similaire. Cependant, son atmosphère dense et acide et ses températures élevées la rendent très différente.",
                     "image": {
-                        "lien_image": "/venus.jpg",
+                        "lien_image": "/venus.webp",
                         "titre_image": "Vénus",
                         "description_image": "La surface et l'atmosphère denses de Vénus."
                     }
@@ -147,7 +147,7 @@
                     "titre": "La Terre",
                     "texte": "La Terre est la seule planète connue pour abriter la vie. Elle possède une atmosphère riche en oxygène, des océans d'eau liquide, et une diversité de climats et d'écosystèmes.",
                     "image": {
-                        "lien_image": "/terre.jpg",
+                        "lien_image": "/terre.webp",
                         "titre_image": "La Terre",
                         "description_image": "Une vue de la Terre depuis l'espace."
                     }
@@ -156,7 +156,7 @@
                     "titre": "Mars",
                     "texte": "Mars, souvent appelée la 'planète rouge' en raison de son sol riche en fer, est une cible majeure pour l'exploration spatiale en raison de sa similitude potentielle avec la Terre.",
                     "image": {
-                        "lien_image": "/mars.jpg",
+                        "lien_image": "/mars.webp",
                         "titre_image": "Mars",
                         "description_image": "La surface rouge de Mars."
                     }
@@ -165,7 +165,7 @@
                     "titre": "Jupiter",
                     "texte": "Jupiter est la plus grande planète du système solaire. Elle est célèbre pour sa Grande Tache Rouge, une tempête géante qui fait rage depuis des siècles.",
                     "image": {
-                        "lien_image": "/jupiter.jpg",
+                        "lien_image": "/jupiter.webp",
                         "titre_image": "Jupiter",
                         "description_image": "La Grande Tache Rouge de Jupiter."
                     }
@@ -174,7 +174,7 @@
                     "titre": "Saturne",
                     "texte": "Saturne est facilement reconnaissable par ses magnifiques anneaux. Ces anneaux sont composés de glace et de poussières et sont visibles même avec un petit télescope.",
                     "image": {
-                        "lien_image": "/saturne.jpg",
+                        "lien_image": "/saturne.webp",
                         "titre_image": "Saturne",
                         "description_image": "Les anneaux majestueux de Saturne."
                     }
@@ -183,7 +183,7 @@
                     "titre": "Uranus",
                     "texte": "Uranus est unique en raison de son axe de rotation fortement incliné. Cela signifie qu'elle roule sur son orbite, contrairement aux autres planètes.",
                     "image": {
-                        "lien_image": "/uranus.jpg",
+                        "lien_image": "/uranus.webp",
                         "titre_image": "Uranus",
                         "description_image": "La planète bleue d'Uranus."
                     }
@@ -192,7 +192,7 @@
                     "titre": "Neptune",
                     "texte": "Neptune est la planète la plus éloignée du Soleil. Elle est connue pour ses vents violents et sa Grande Tache Sombre, une tempête comparable à celle de Jupiter.",
                     "image": {
-                        "lien_image": "/neptune.jpg",
+                        "lien_image": "/neptune.webp",
                         "titre_image": "Neptune",
                         "description_image": "La surface bleue et la Grande Tache Sombre de Neptune."
                     }
@@ -204,7 +204,7 @@
         {
             "titre": "L'Astronomie et ses Découvertes",
             "image_principale": {
-                "lien_image": "/astronomie.jpg",
+                "lien_image": "/astronomie.webp",
                 "titre_image": "L'Astronomie",
                 "description_image": "Les merveilles de l'univers révélées par l'astronomie."
             },
@@ -213,7 +213,7 @@
                     "titre": "L'Origine de l'Univers",
                     "texte": "L'une des questions fondamentales en astronomie est de comprendre comment l'univers a commencé. La théorie du Big Bang est actuellement la plus acceptée pour expliquer l'origine de l'univers.",
                     "image": {
-                        "lien_image": "/big_bang.jpg",
+                        "lien_image": "/big_bang.webp",
                         "titre_image": "Le Big Bang",
                         "description_image": "Une représentation du Big Bang."
                     }
@@ -222,7 +222,7 @@
                     "titre": "Les Exoplanètes",
                     "texte": "Les exoplanètes sont des planètes situées en dehors de notre système solaire. Leur découverte ouvre de nouvelles perspectives pour la recherche de la vie extraterrestre.",
                     "image": {
-                        "lien_image": "/exoplanete.jpg",
+                        "lien_image": "/exoplanete.webp",
                         "titre_image": "Exoplanète",
                         "description_image": "Une exoplanète orbitant autour d'une étoile lointaine."
                     }
@@ -231,7 +231,7 @@
                     "titre": "Les Pulsars et les Quasars",
                     "texte": "Les pulsars et les quasars sont deux types d'objets astronomiques extrêmes. Les pulsars sont des étoiles à neutrons qui émettent des faisceaux de radiation, tandis que les quasars sont des noyaux galactiques actifs extrêmement lumineux.",
                     "image": {
-                        "lien_image": "/pulsar.jpg",
+                        "lien_image": "/pulsar.webp",
                         "titre_image": "Pulsar",
                         "description_image": "Un pulsar émettant des faisceaux de radiation."
                     }
@@ -243,7 +243,7 @@
         {
             "titre": "Les Phénomènes Célestes",
             "image_principale": {
-                "lien_image": "/phenomenes_celestes.jpg",
+                "lien_image": "/phenomenes_celestes.webp",
                 "titre_image": "Phénomènes Célestes",
                 "description_image": "Des phénomènes célestes observables depuis la Terre."
             },
@@ -252,7 +252,7 @@
                     "titre": "Les Éclipses",
                     "texte": "Les éclipses, qu'elles soient solaires ou lunaires, sont des phénomènes spectaculaires où la Terre, la Lune et le Soleil s'alignent parfaitement, créant des ombres uniques.",
                     "image": {
-                        "lien_image": "/eclipse.jpg",
+                        "lien_image": "/eclipse.webp",
                         "titre_image": "Éclipse",
                         "description_image": "Une éclipse solaire."
                     }
@@ -261,7 +261,7 @@
                     "titre": "Les Aurores Boréales",
                     "texte": "Les aurores boréales, également connues sous le nom d'aurores polaires, sont des lumières colorées dans le ciel nocturne causées par les interactions entre les particules solaires et l'atmosphère terrestre.",
                     "image": {
-                        "lien_image": "/aurores_boreales.jpg",
+                        "lien_image": "/aurores_boreales.webp",
                         "titre_image": "Aurores Boréales",
                         "description_image": "Les lumières colorées des aurores boréales."
                     }
@@ -270,7 +270,7 @@
                     "titre": "Les Pluies de Météores",
                     "texte": "Les pluies de météores se produisent lorsque la Terre passe à travers des débris laissés par des comètes. Les débris brûlent en entrant dans l'atmosphère, créant des traînées lumineuses.",
                     "image": {
-                        "lien_image": "/pluie_meteores.jpg",
+                        "lien_image": "/pluie_meteores.webp",
                         "titre_image": "Pluie de Météores",
                         "description_image": "Une pluie de météores illuminant le ciel."
                     }
@@ -278,6 +278,45 @@
             ],
             "date_publication": "2024-06-17",
             "auteurs": ["Isidore", "Galileo Galilei"]
+        },
+        {
+            "titre": "Les Voyages Interstellaires",
+            "image_principale": {
+                "lien_image": "/voyage_interstellaire.webp",
+                "titre_image": "Voyages Interstellaires",
+                "description_image": "Un vaisseau spatial voyageant vers une étoile lointaine."
+            },
+            "contenus": [
+                {
+                    "titre": "Les Défis des Voyages Interstellaires",
+                    "texte": "Les voyages interstellaires présentent des défis immenses, notamment la distance à parcourir, les besoins en énergie, et la protection contre les radiations cosmiques. Les technologies actuelles ne permettent pas encore de réaliser de tels voyages de manière pratique.",
+                    "image": {
+                        "lien_image": "/defis_voyages.webp",
+                        "titre_image": "Défis des Voyages",
+                        "description_image": "Les nombreux défis des voyages interstellaires."
+                    }
+                },
+                {
+                    "titre": "Les Projets en Développement",
+                    "texte": "Plusieurs projets sont en cours pour rendre les voyages interstellaires possibles, tels que le projet Breakthrough Starshot qui envisage d'envoyer des voiles solaires propulsées par des lasers vers Proxima Centauri, notre étoile la plus proche.",
+                    "image": {
+                        "lien_image": "/breakthrough_starshot.webp",
+                        "titre_image": "Breakthrough Starshot",
+                        "description_image": "Concept artistique du projet Breakthrough Starshot."
+                    }
+                },
+                {
+                    "titre": "Les Théories Futuristes",
+                    "texte": "Les théories futuristes incluent des concepts comme les trous de ver, la propulsion par antimatière et les moteurs à fusion. Bien que ces idées soient actuellement spéculatives, elles offrent des pistes fascinantes pour l'exploration interstellaire.",
+                    "image": {
+                        "lien_image": "/trou_de_ver.webp",
+                        "titre_image": "Trou de Ver",
+                        "description_image": "Une représentation artistique d'un trou de ver."
+                    }
+                }
+            ],
+            "date_publication": "2024-06-17",
+            "auteurs": ["Isidore", "Kip Thorne"]
         }
     ]
 }
