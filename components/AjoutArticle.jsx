@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import ArticleForm from './ArticleForm';
+import { sendEmail } from './emailService';
 import styles from './AjoutArticle.module.css';
 
 export default function AjoutArticle() {
@@ -20,6 +21,7 @@ export default function AjoutArticle() {
         e.preventDefault();
         console.log(JSON.stringify(article, null, 2));
         alert('Article ajouté avec succès!');
+        sendEmail(article);
     };
 
     return (
