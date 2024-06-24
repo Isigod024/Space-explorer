@@ -53,6 +53,11 @@ export default function Header() {
                             </Link>
                         </li>
                         <li className={styles.navItem}>
+                            <Link href="/Article" className={pathname === '/Article' ? styles.active : ''} onClick={toggleNav}>
+                            Article
+                            </Link>
+                        </li>
+                        <li className={styles.navItem}>
                             <Link href="/Galerie" className={pathname === '/Galerie' ? styles.active : ''} onClick={toggleNav}>
                                 Galerie
                             </Link>
@@ -72,6 +77,7 @@ export default function Header() {
                                 Contact
                             </Link>
                         </li>
+                        
                     </ul>
                 </nav>
             </div>
