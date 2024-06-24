@@ -10,7 +10,7 @@
             "contenus": [
                 {
                     "titre": "La Formation des Étoiles",
-                    "texte": "Les étoiles se forment dans des nuages de gaz et de poussières appelés nébuleuses. Ces nébuleuses sont souvent le berceau de nouvelles étoiles qui émergent de la contraction et de la fusion de ces matériaux interstellaires.",
+                    "texte": "Les étoiles se forment à partir de vastes nuages de gaz et de poussière, principalement constitués d'hydrogène. Lorsque ces nuages, appelés nébuleuses, subissent une perturbation, telle qu'une onde de choc d'une supernova voisine, ils commencent à se contracter sous l'effet de la gravité. En se contractant, le nuage se fragmente et forme des régions de plus en plus denses appelées protoétoiles. À mesure que la contraction se poursuit, la température et la pression au centre de ces protoétoiles augmentent jusqu'à ce que les conditions soient suffisantes pour déclencher la fusion nucléaire. La fusion de l'hydrogène en hélium libère une immense quantité d'énergie, marquant ainsi la naissance d'une nouvelle étoile. Cette phase initiale de fusion dure des millions à des milliards d'années, selon la masse de l'étoile.",
                     "image": {
                         "lien_image": "/formation_etoile.webp",
                         "titre_image": "Nébuleuse",
@@ -19,7 +19,7 @@
                 },
                 {
                     "titre": "Les Trous Noirs",
-                    "texte": "Les trous noirs sont des objets célestes fascinants et mystérieux. Ils se forment lorsque des étoiles massives s'effondrent sous leur propre gravité à la fin de leur vie. Rien, pas même la lumière, ne peut échapper à l'attraction gravitationnelle d'un trou noir.",
+                    "texte": "Les trous noirs sont des objets astronomiques où la gravité est si intense que rien, pas même la lumière, ne peut s'en échapper. Ils se forment généralement lorsqu'une étoile massive atteint la fin de sa vie et s'effondre sous l'effet de sa propre gravité après avoir épuisé son carburant nucléaire. Cet effondrement laisse derrière lui une singularité entourée par un horizon des événements, la frontière au-delà de laquelle rien ne peut revenir. Les trous noirs sont souvent détectés par leurs effets sur la matière environnante, tels que les disques d'accrétion de gaz chauffés à des températures extrêmes et les émissions de rayons X. Ils jouent un rôle crucial dans l'évolution des galaxies et la dynamique des systèmes stellaires.",
                     "image": {
                         "lien_image": "/trou_noir.webp",
                         "titre_image": "Trou Noir",
@@ -28,7 +28,7 @@
                 },
                 {
                     "titre": "Les Galaxies",
-                    "texte": "Les galaxies sont d'immenses ensembles d'étoiles, de gaz, de poussières et de matière noire, liés par la gravité. Elles peuvent contenir des centaines de milliards d'étoiles et se présentent sous différentes formes, telles que les spirales, les elliptiques et les irrégulières.",
+                    "texte": "Les galaxies sont des ensembles gigantesques de milliards d'étoiles, de gaz, de poussière et de matière noire, tous liés par la gravité. Elles se présentent sous diverses formes, notamment les galaxies spirales, elliptiques et irrégulières. La Voie lactée, notre galaxie, est une galaxie spirale contenant environ 200 à 400 milliards d'étoiles. Les galaxies se forment par la fusion de plus petits groupes de matière et l'accrétion de gaz. Elles évoluent au fil du temps grâce à des interactions gravitationnelles avec d'autres galaxies, souvent résultant en des collisions et des fusions qui peuvent déclencher de nouvelles vagues de formation d'étoiles.",
                     "image": {
                         "lien_image": "/galaxie_spirale.webp",
                         "titre_image": "Galaxie Spirale",
@@ -49,7 +49,7 @@
             "contenus": [
                 {
                     "titre": "Les Missions Vers Mars",
-                    "texte": "Depuis les années 1960, de nombreuses missions ont été envoyées pour explorer Mars, allant des survols et des orbiteurs aux atterrisseurs et rovers. Ces missions ont considérablement élargi notre compréhension de la planète rouge.",
+                    "texte": "Mars, souvent appelée la 'planète rouge', a captivé l'imagination humaine et a été la cible de nombreuses missions spatiales. Les missions vers Mars ont pour objectif d'étudier sa géologie, son climat et sa potentielle habitabilité passée et présente. Les rovers tels que Curiosity et Perseverance ont parcouru la surface de Mars, analysant des échantillons de sol et de roche, cherchant des signes de vie passée et préparant le terrain pour de futures missions habitées. Ces missions ont révélé des preuves d'anciennes rivières et lacs, suggérant que Mars pourrait avoir abrité des conditions favorables à la vie.",
                     "image": {
                         "lien_image": "/mars_rover.webp",
                         "titre_image": "Rover sur Mars",
@@ -58,7 +58,7 @@
                 },
                 {
                     "titre": "La Recherche de la Vie sur Mars",
-                    "texte": "L'une des principales motivations pour explorer Mars est la recherche de signes de vie, passée ou présente. Les scientifiques cherchent des preuves d'eau liquide, de composés organiques et de conditions habitables.",
+                    "texte": "La quête de la vie sur Mars se concentre principalement sur la recherche de biosignatures, des traces chimiques ou physiques de la vie passée ou présente. Les scientifiques cherchent des molécules organiques, des structures fossiles microscopiques et des changements dans les compositions isotopiques qui pourraient indiquer une activité biologique. Les instruments à bord des rovers et des atterrisseurs sont conçus pour détecter ces indices, et des échantillons de sol et de roche pourraient un jour être ramenés sur Terre pour une analyse plus approfondie. La découverte de vie, même microbienne, sur Mars aurait des implications profondes pour notre compréhension de la vie dans l'univers.",
                     "image": {
                         "lien_image": "/mars_water.webp",
                         "titre_image": "Eau sur Mars",
@@ -67,7 +67,7 @@
                 },
                 {
                     "titre": "Les Projets Futurs",
-                    "texte": "Les projets futurs pour l'exploration de Mars comprennent des missions habitées, des bases permanentes et peut-être même la terraformation de la planète pour la rendre habitable pour les humains.",
+                    "texte": "L'exploration spatiale se tourne vers de nombreux projets ambitieux, notamment le retour des humains sur la Lune avec le programme Artemis de la NASA, qui prévoit des missions habitées à partir de 2024. En parallèle, des missions vers Mars, telles que Mars Sample Return, visent à rapporter des échantillons martiens sur Terre. D'autres projets incluent l'étude des lunes de Jupiter et de Saturne, comme Europe et Encelade, qui pourraient abriter des océans sous leurs croûtes de glace. Les télescopes spatiaux de nouvelle génération, tels que le James Webb Space Telescope, promettent de révolutionner notre compréhension de l'univers en permettant des observations plus profondes et plus précises que jamais.",
                     "image": {
                         "lien_image": "/mars_base.webp",
                         "titre_image": "Base sur Mars",
@@ -88,7 +88,7 @@
             "contenus": [
                 {
                     "titre": "Les Types de Satellites",
-                    "texte": "Il existe différents types de satellites, chacun ayant une fonction spécifique : les satellites de communication, les satellites météorologiques, les satellites d'observation de la Terre, et les satellites scientifiques.",
+                    "texte": "Les satellites artificiels sont classés en fonction de leur fonction et de leur orbite. Les satellites de communication relaient les signaux télévisuels, téléphoniques et Internet. Les satellites météorologiques surveillent les conditions climatiques et prévoient les intempéries. Les satellites d'observation de la Terre collectent des données sur les ressources naturelles, la pollution et les catastrophes naturelles. Les satellites de navigation, comme ceux du système GPS, fournissent des services de localisation et de synchronisation. Enfin, les satellites scientifiques et d'exploration spatiale étudient l'espace lointain et les autres planètes.",
                     "image": {
                         "lien_image": "/satellite_types.webp",
                         "titre_image": "Types de Satellites",
@@ -97,7 +97,7 @@
                 },
                 {
                     "titre": "Le Lancement des Satellites",
-                    "texte": "Le lancement de satellites est un processus complexe qui implique des fusées puissantes et une planification minutieuse pour placer le satellite en orbite correcte.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/rocket_launch.webp",
                         "titre_image": "Lancement de Fusée",
@@ -106,7 +106,7 @@
                 },
                 {
                     "titre": "Les Défis de l'Orbite",
-                    "texte": "Les satellites en orbite doivent faire face à divers défis, y compris la gestion de la durée de vie des batteries, l'évitement des débris spatiaux, et la maintenance à distance.",
+                    "texte": "Le lancement de satellites implique l'utilisation de fusées pour placer les satellites en orbite autour de la Terre. Les satellites sont fixés sur la fusée et, après un compte à rebours, la fusée décolle, brûlant des tonnes de carburant pour atteindre la vitesse et l'altitude nécessaires. Une fois en orbite, les étages de la fusée se séparent, et le satellite est déployé. Il utilise ensuite ses propres systèmes de propulsion pour atteindre sa position finale. Les lanceurs modernes, comme le Falcon 9 de SpaceX, sont conçus pour être partiellement réutilisables, ce qui réduit les coûts de lancement.",
                     "image": {
                         "lien_image": "/space_debris.webp",
                         "titre_image": "Débris Spatiaux",
@@ -127,7 +127,7 @@
             "contenus": [
                 {
                     "titre": "Mercure",
-                    "texte": "Mercure est la planète la plus proche du Soleil. Elle est connue pour ses températures extrêmes et sa surface criblée de cratères.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/mercure.webp",
                         "titre_image": "Mercure",
@@ -136,7 +136,7 @@
                 },
                 {
                     "titre": "Vénus",
-                    "texte": "Vénus est souvent appelée la 'sœur jumelle' de la Terre en raison de sa taille similaire. Cependant, son atmosphère dense et acide et ses températures élevées la rendent très différente.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/venus.webp",
                         "titre_image": "Vénus",
@@ -145,7 +145,7 @@
                 },
                 {
                     "titre": "La Terre",
-                    "texte": "La Terre est la seule planète connue pour abriter la vie. Elle possède une atmosphère riche en oxygène, des océans d'eau liquide, et une diversité de climats et d'écosystèmes.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/terre.webp",
                         "titre_image": "La Terre",
@@ -154,7 +154,7 @@
                 },
                 {
                     "titre": "Mars",
-                    "texte": "Mars, souvent appelée la 'planète rouge' en raison de son sol riche en fer, est une cible majeure pour l'exploration spatiale en raison de sa similitude potentielle avec la Terre.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/mars.webp",
                         "titre_image": "Mars",
@@ -163,7 +163,7 @@
                 },
                 {
                     "titre": "Jupiter",
-                    "texte": "Jupiter est la plus grande planète du système solaire. Elle est célèbre pour sa Grande Tache Rouge, une tempête géante qui fait rage depuis des siècles.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/jupiter.webp",
                         "titre_image": "Jupiter",
@@ -172,7 +172,7 @@
                 },
                 {
                     "titre": "Saturne",
-                    "texte": "Saturne est facilement reconnaissable par ses magnifiques anneaux. Ces anneaux sont composés de glace et de poussières et sont visibles même avec un petit télescope.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/saturne.webp",
                         "titre_image": "Saturne",
@@ -181,7 +181,7 @@
                 },
                 {
                     "titre": "Uranus",
-                    "texte": "Uranus est unique en raison de son axe de rotation fortement incliné. Cela signifie qu'elle roule sur son orbite, contrairement aux autres planètes.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/uranus.webp",
                         "titre_image": "Uranus",
@@ -190,7 +190,7 @@
                 },
                 {
                     "titre": "Neptune",
-                    "texte": "Neptune est la planète la plus éloignée du Soleil. Elle est connue pour ses vents violents et sa Grande Tache Sombre, une tempête comparable à celle de Jupiter.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/neptune.webp",
                         "titre_image": "Neptune",
@@ -211,7 +211,7 @@
             "contenus": [
                 {
                     "titre": "L'Origine de l'Univers",
-                    "texte": "L'une des questions fondamentales en astronomie est de comprendre comment l'univers a commencé. La théorie du Big Bang est actuellement la plus acceptée pour expliquer l'origine de l'univers.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/big_bang.webp",
                         "titre_image": "Le Big Bang",
@@ -220,7 +220,7 @@
                 },
                 {
                     "titre": "Les Exoplanètes",
-                    "texte": "Les exoplanètes sont des planètes situées en dehors de notre système solaire. Leur découverte ouvre de nouvelles perspectives pour la recherche de la vie extraterrestre.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/exoplanete.webp",
                         "titre_image": "Exoplanète",
@@ -229,7 +229,7 @@
                 },
                 {
                     "titre": "Les Pulsars et les Quasars",
-                    "texte": "Les pulsars et les quasars sont deux types d'objets astronomiques extrêmes. Les pulsars sont des étoiles à neutrons qui émettent des faisceaux de radiation, tandis que les quasars sont des noyaux galactiques actifs extrêmement lumineux.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/pulsar.webp",
                         "titre_image": "Pulsar",
@@ -250,7 +250,7 @@
             "contenus": [
                 {
                     "titre": "Les Éclipses",
-                    "texte": "Les éclipses, qu'elles soient solaires ou lunaires, sont des phénomènes spectaculaires où la Terre, la Lune et le Soleil s'alignent parfaitement, créant des ombres uniques.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/eclipse.webp",
                         "titre_image": "Éclipse",
@@ -259,7 +259,7 @@
                 },
                 {
                     "titre": "Les Aurores Boréales",
-                    "texte": "Les aurores boréales, également connues sous le nom d'aurores polaires, sont des lumières colorées dans le ciel nocturne causées par les interactions entre les particules solaires et l'atmosphère terrestre.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/aurores_boreales.webp",
                         "titre_image": "Aurores Boréales",
@@ -268,7 +268,7 @@
                 },
                 {
                     "titre": "Les Pluies de Météores",
-                    "texte": "Les pluies de météores se produisent lorsque la Terre passe à travers des débris laissés par des comètes. Les débris brûlent en entrant dans l'atmosphère, créant des traînées lumineuses.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/pluie_meteores.webp",
                         "titre_image": "Pluie de Météores",
@@ -289,7 +289,7 @@
             "contenus": [
                 {
                     "titre": "Les Défis des Voyages Interstellaires",
-                    "texte": "Les voyages interstellaires présentent des défis immenses, notamment la distance à parcourir, les besoins en énergie, et la protection contre les radiations cosmiques. Les technologies actuelles ne permettent pas encore de réaliser de tels voyages de manière pratique.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/defis_voyages.webp",
                         "titre_image": "Défis des Voyages",
@@ -298,7 +298,7 @@
                 },
                 {
                     "titre": "Les Projets en Développement",
-                    "texte": "Plusieurs projets sont en cours pour rendre les voyages interstellaires possibles, tels que le projet Breakthrough Starshot qui envisage d'envoyer des voiles solaires propulsées par des lasers vers Proxima Centauri, notre étoile la plus proche.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/breakthrough_starshot.webp",
                         "titre_image": "Breakthrough Starshot",
@@ -307,7 +307,7 @@
                 },
                 {
                     "titre": "Les Théories Futuristes",
-                    "texte": "Les théories futuristes incluent des concepts comme les trous de ver, la propulsion par antimatière et les moteurs à fusion. Bien que ces idées soient actuellement spéculatives, elles offrent des pistes fascinantes pour l'exploration interstellaire.",
+                    "texte": "",
                     "image": {
                         "lien_image": "/trou_de_ver.webp",
                         "titre_image": "Trou de Ver",
