@@ -1,6 +1,5 @@
 :root {
   --Main-hue-color: 211;
-  /* --hue-color: 165; */
   --Main-Com-color: hsl(var(--Main-hue-color), 100%, 50%);
   --Header-Color: hsla(var(--Main-hue-color), 100%, 5%, 0.8);
   --Footer-Color: hsla(var(--Main-hue-color), 100%, 5%, 1);
@@ -9,12 +8,12 @@
   --Menu-color: hsla(var(--Main-hue-color), 60%, 80%, 0.4);
   --Menu-Hover-Item-color: hsla(var(--Main-hue-color), 60%, 80%, 1);
   --shadow-Color: hsla(var(--Main-hue-color), 0%, 0%, 0.1);
-  
-  --Dark-Text : hsl(var(--Main-hue-color), 0%, 0%);
-  --Light-Text : hsl(var(--Main-hue-color), 0%, 100%);
-  --Hover-Text : hsl(calc(var(--Main-hue-color) - 31) , 100%, 50%);
+
+  --Dark-Text: hsl(var(--Main-hue-color), 0%, 0%);
+  --Light-Text: hsl(var(--Main-hue-color), 0%, 100%);
+  --Hover-Text: hsl(calc(var(--Main-hue-color) - 31), 100%, 50%);
   --shadow-Text-Color: hsla(var(--Main-hue-color), 0%, 0%, 0.2);
-  /* Les differentes tailles pour les petits ecrans */
+
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -24,21 +23,14 @@
   --smaller-font-size: .60rem;
   --interligne: 1.7;
 
-  /************ Font weight ***************/
   --font-bold: 800;
   --font-medium-bold: 600;
   --font-semi-bold: 400;
 
-  /************ Largeur du slidebar *************/
   --slidebar-width: 300px;
-
-  /**************  Lageur max pages************/
   --page-max-width: 1024px;
-
-  /************ hauteur du navBar *************/
   --navbar-height: 4rem;
 
-  /******** Les differentes marges ***************/
   --mb-0-25: .25rem;
   --mb-0-5: .5rem;
   --mb-0-75: 0.75rem;
@@ -48,30 +40,36 @@
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
 
-  /****** z index  *****/
   --z-tooltip: 10;
   --z-fixed: 1000;
   --z-back: 0;
+
+  --background-color: #FBFBFB;
+  --text-color: #0C0C1E;
 }
 
-/****** Les tailles pour les grands ecrans *************/
-@media screen and (min-width: 968px) {
-  :root {
-    --big-font-size: 3rem;
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1.10rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
-  }
+[data-theme="dark"] {
+  --background-color: #0C0C1E;
+  --text-color: #FBFBFB;
+  --Header-Color: hsla(var(--Main-hue-color), 100%, 15%, 0.8);
+  --Footer-Color: hsla(var(--Main-hue-color), 100%, 15%, 1);
+  --BackApropos-Color: hsla(var(--Main-hue-color), 0%, 20%, 0.1);
+  --BackAproposItem-Color: hsla(var(--Main-hue-color), 0%, 20%, 0.95);
+  --Menu-color: hsla(var(--Main-hue-color), 60%, 20%, 0.4);
+  --Menu-Hover-Item-color: hsla(var(--Main-hue-color), 60%, 20%, 1);
+  --shadow-Color: hsla(var(--Main-hue-color), 0%, 100%, 0.1);
 }
 
-body.dark {
-  --light: #0C0C1E;
-  --grey: #060714;
-  --dark: #FBFBFB;
-  --first-color: #0C0C1E;
+[data-theme="light"] {
+  --background-color: #FBFBFB;
+  --text-color: #0C0C1E;
+  --Header-Color: hsla(var(--Main-hue-color), 100%, 95%, 0.8);
+  --Footer-Color: hsla(var(--Main-hue-color), 100%, 95%, 1);
+  --BackApropos-Color: hsla(var(--Main-hue-color), 0%, 100%, 0.1);
+  --BackAproposItem-Color: hsla(var(--Main-hue-color), 0%, 100%, 0.95);
+  --Menu-color: hsla(var(--Main-hue-color), 60%, 80%, 0.4);
+  --Menu-Hover-Item-color: hsla(var(--Main-hue-color), 60%, 80%, 1);
+  --shadow-Color: hsla(var(--Main-hue-color), 0%, 0%, 0.1);
 }
 
 * {
@@ -93,5 +91,8 @@ html {
 }
 
 body {
-  background: var(--light);
+  background: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
 }
+

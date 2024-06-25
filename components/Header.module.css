@@ -5,6 +5,7 @@
     left: 20px;
     right: 20px;
     background: var(--Header-Color);
+    color: var(--text-color);
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 6px var(--shadow-Color);
     transition: top 0.3s ease-in-out;
