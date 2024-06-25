@@ -1,5 +1,4 @@
-// Header.jsx
-'use client'
+'use client';
 import React, { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import styles from './Header.module.css';
@@ -7,6 +6,7 @@ import Image from 'next/image';
 import Logo from '@/public/Space_Explorer.webp';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Link from 'next/link';
+import ToggleButton from './ToggleButton';
 
 export default function Header() {
     const [isVisible, setIsVisible] = useState(true);
@@ -37,7 +37,7 @@ export default function Header() {
 
     return (
         <header className={`${styles.header} ${isVisible ? styles.visible : styles.hidden}`}>
-            <button className={styles.toggleButton} onClick={toggleNav}>
+            <button className={styles.toggleNavButton} onClick={toggleNav}>
                 {navVisible ? <FaTimes /> : <FaBars />}
             </button>
             <div className={styles.logo}>
@@ -54,7 +54,7 @@ export default function Header() {
                         </li>
                         <li className={styles.navItem}>
                             <Link href="/Article" className={pathname === '/Article' ? styles.active : ''} onClick={toggleNav}>
-                            Article
+                                Article
                             </Link>
                         </li>
                         <li className={styles.navItem}>
@@ -77,10 +77,13 @@ export default function Header() {
                                 Contact
                             </Link>
                         </li>
-                        
+                        <li className={styles.navItem}>
+                            <ToggleButton />
+                        </li>
                     </ul>
                 </nav>
             </div>
         </header>
     );
 }
+
