@@ -67,7 +67,7 @@ const Galerie = () => {
   };
 
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles.gallery}>
         {[...images, ...userImages].map((image, index) => (
           <div key={index} className={styles.card} onClick={() => handleImageClick(image)}>
@@ -87,6 +87,7 @@ const Galerie = () => {
         </div>
       )}
       <form className={styles.form} onSubmit={handleFormSubmit}>
+        <h2>Ajouter une Nouvelle Image</h2>
         <input
           type="text"
           name="lien_image"
@@ -117,3 +118,4 @@ const Galerie = () => {
 };
 
 export default Galerie;
+
