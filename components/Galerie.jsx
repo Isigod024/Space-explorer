@@ -71,14 +71,14 @@ const Galerie = () => {
       <div className={styles.gallery}>
         {[...images, ...userImages].map((image, index) => (
           <div key={index} className={styles.card} onClick={() => handleImageClick(image)}>
-            <Image src={image.lien_image} alt={image.titre_image}  height={100} width={100}/>
+            <Image src={image.lien_image} alt={image.titre_image}  height={1000} width={1000}/>
           </div>
         ))}
       </div>
       {selectedImage && (
         <div className={styles.overlay} onClick={closeImage}>
           <div className={styles.largeImageContainer}>
-            <Image className={styles.largeImage} src={selectedImage.lien_image} alt={selectedImage.titre_image}  height={100} width={100}/>
+            <Image className={styles.largeImage} src={selectedImage.lien_image} alt={selectedImage.titre_image}  height={1000} width={1000}/>
             <div className={styles.imageInfo}>
               <h2>{selectedImage.titre_image}</h2>
               <p>{selectedImage.description_image}</p>
