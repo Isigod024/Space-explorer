@@ -10,15 +10,15 @@ export default function ImageForm({ image, onImageChange }) {
     return (
         <div className={styles.imageForm}>
             <label>
-                Lien de l'image:
+                Lien de l&apos;image:
                 <input type="text" name="lien_image" value={image.lien_image} onChange={handleChange} required />
             </label>
             <label>
-                Titre de l'image:
+                Titre de l&apos;image:
                 <input type="text" name="titre_image" value={image.titre_image} onChange={handleChange} required />
             </label>
             <label>
-                Description de l'image:
+                Description de l&apos;image:
                 <textarea name="description_image" value={image.description_image} onChange={handleChange} required />
             </label>
         </div>

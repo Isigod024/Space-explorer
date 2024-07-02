@@ -36,11 +36,11 @@ export default function ArticleForm({ article, onArticleChange, onSubmit }) {
     return (
         <form onSubmit={onSubmit} className={styles.articleForm}>
             <label>
-                Titre de l'article:
+                Titre de l&apos;article:
                 <input type="text" name="titre" value={article.titre} onChange={handleChange} required />
             </label>
             <ImageForm image={article.image_principale} onImageChange={handleImageChange} />
-            <h3>Sections de l'article</h3>
+            <h3>Sections de l&apos;article</h3>
             {article.contenus.map((section, index) => (
                 <SectionForm
                     key={index}
@@ -57,7 +57,7 @@ export default function ArticleForm({ article, onArticleChange, onSubmit }) {
                 <input type="date" name="date_publication" value={article.date_publication} onChange={handleChange} required />
             </label>
             <AuthorsForm authors={article.auteurs} onAuthorsChange={handleAuthorChange} />
-            <button type="submit">Ajouter l'article</button>
+            <button type="submit">Ajouter l&apos;article</button>
         </form>
     );
 }

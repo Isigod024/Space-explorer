@@ -27,7 +27,7 @@ export default function MenuNav({ setPage }) {
                 <ul>
                     <li className={styles.navItem}><a href='#' onClick={() => setPage('accueil')}><FaHouseChimney /> Accueil</a></li>
                     <li className={styles.navItem}><a href='#' onClick={() => setPage('Galerie')}><FaCamera /> Galerie</a></li>
-                    <li className={styles.navItem}><a href='#' onClick={() => setPage('Ajout d article')}><IoMdAddCircle /> Ajout d'article</a></li>
+                    <li className={styles.navItem}><a href='#' onClick={() => setPage('Ajout d article')}><IoMdAddCircle /> Ajout d&apos;article</a></li>
                     <li className={styles.navItem}><a href='#' onClick={() => setPage('connexion')}><IoMdContact /> Connexion</a></li>
                     <li className={styles.navItem}><a href="#" onClick={() => setPage('Contact')}><BsFillTelephoneFill /> Contact</a></li>
                 </ul>

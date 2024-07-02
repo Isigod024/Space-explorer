@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './GallerySection.module.css';
 import articles from '../data/Articles.json';
+import Image from 'next/image';
 
 function getRandomImages(articleData, num) {
     const images = articleData.articles
@@ -15,10 +16,10 @@ export default function GallerySection() {
 
     return (
         <section className={styles.gallery}>
-            <h2>Galerie d'Images et de Vidéos</h2>
+            <h2>Galerie d&apos;Images et de Vidéos</h2>
             <div className={styles.media}>
                 {selectedImages.map((src, index) => (
-                    <img key={index} src={src} alt={`Space ${index + 1}`} className={styles.image} />
+                    <Image key={index} src={src} alt={`Space ${index + 1}`} className={styles.image} height={100} width={100}/>
                 ))}
             </div>
         </section>

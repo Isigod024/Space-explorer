@@ -8,7 +8,7 @@ export default function Newsletter() {
             <p>Inscrivez-vous à notre newsletter pour recevoir les dernières nouvelles et articles.</p>
             <form className={styles.form}>
                 <input type="email" placeholder="Votre email" className={styles.input} />
-                <button type="submit" className={styles.button}>S'inscrire</button>
+                <button type="submit" className={styles.button}>S&apos;inscrire</button>
             </form>
         </section>
     );

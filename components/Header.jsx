@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { usePathname } from 'next/navigation';
 import styles from './Header.module.css';
 import Image from 'next/image';
@@ -12,21 +12,21 @@ export default function Header() {
     const [isVisible, setIsVisible] = useState(true);
     const [navVisible, setNavVisible] = useState(false);
     const pathname = usePathname(); 
+    const lastScrollTop = useRef(0);
 
     const toggleNav = () => {
         setNavVisible(!navVisible);
     };
 
-    let lastScrollTop = 0;
     useEffect(() => {
         const handleScroll = () => {
             let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            if (scrollTop > lastScrollTop) {
+            if (scrollTop > lastScrollTop.current) {
                 setIsVisible(false);
             } else {
                 setIsVisible(true);
             }
-            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+            lastScrollTop.current = scrollTop <= 0 ? 0 : scrollTop;
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -64,7 +64,7 @@ export default function Header() {
                         </li>
                         <li className={styles.navItem}>
                             <Link href="/AddArticle" className={pathname === '/AddArticle' ? styles.active : ''} onClick={toggleNav}>
-                                Ajout d'article
+                                Ajout d&apos;article
                             </Link>
                         </li>
                         <li className={styles.navItem}>
@@ -86,4 +86,3 @@ export default function Header() {
         </header>
     );
 }
-

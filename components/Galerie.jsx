@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import articles from '../data/articles';
 import styles from './Galerie.module.css';
+import Image from 'next/image';
 
 const Galerie = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -13,7 +14,6 @@ const Galerie = () => {
   });
 
   useEffect(() => {
-    // Charger les images de l'utilisateur depuis le stockage local
     const storedImages = JSON.parse(localStorage.getItem('userImages'));
     if (storedImages) {
       setUserImages(storedImages);
@@ -71,14 +71,14 @@ const Galerie = () => {
       <div className={styles.gallery}>
         {[...images, ...userImages].map((image, index) => (
           <div key={index} className={styles.card} onClick={() => handleImageClick(image)}>
-            <img src={image.lien_image} alt={image.titre_image} />
+            <Image src={image.lien_image} alt={image.titre_image}  height={100} width={100}/>
           </div>
         ))}
       </div>
       {selectedImage && (
         <div className={styles.overlay} onClick={closeImage}>
           <div className={styles.largeImageContainer}>
-            <img className={styles.largeImage} src={selectedImage.lien_image} alt={selectedImage.titre_image} />
+            <Image className={styles.largeImage} src={selectedImage.lien_image} alt={selectedImage.titre_image}  height={100} width={100}/>
             <div className={styles.imageInfo}>
               <h2>{selectedImage.titre_image}</h2>
               <p>{selectedImage.description_image}</p>

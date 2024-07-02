@@ -17,7 +17,7 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div className={styles.column}>
-                    <h4>Besoin D'aide?</h4>
+                    <h4>Besoin D&apos;aide?</h4>
                     <ul>
                         <li><Link href="/votre-compte">Votre Compte</Link></li>
                         <li><Link href="/faq">FAQ</Link></li>

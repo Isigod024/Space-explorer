@@ -6,7 +6,7 @@ export default function CategorySection() {
 
     return (
         <section className={styles.categories}>
-            <h2>Catégories d'Articles</h2>
+            <h2>Catégories d&apos;Articles</h2>
             <div className={styles.categoryList}>
                 {categories.map((category, index) => (
                     <div key={index} className={styles.category}>
