@@ -8,6 +8,16 @@ import styles from './layout.module.css';
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const metadata = {
+  title: 'biblio-app | Accueil',
+  description: 'Site web présentant les fonctionnalités de React et Next.js.',
+  openGraph: {
+    title: 'biblio-app | Accueil',
+    description: 'Site web présentant les fonctionnalités de React et Next.js.',
+    images: ['./react.webp']
+  }
+}
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
