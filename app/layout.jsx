@@ -9,12 +9,12 @@ import styles from './layout.module.css';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'biblio-app | Accueil',
+  title: 'nasa-explorer | Accueil',
   description: 'Site web présentant les fonctionnalités de React et Next.js.',
   openGraph: {
-    title: 'biblio-app | Accueil',
+    title: 'nasa-explorer | Accueil',
     description: 'Site web présentant les fonctionnalités de React et Next.js.',
-    images: ['./react.webp']
+    images: ['./Space_Explorer.webp']
   }
 }
 
