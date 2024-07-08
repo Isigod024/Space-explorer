@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-// components/ToggleButton.jsx
+'use client'
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-=======
-'use client'
-import { useState, useEffect } from 'react';
 import styles from './ToggleButton.module.css';
->>>>>>> da567c824bf646bce9dfd14b7d800f50b689df11
 
 const ToggleButton = () => {
   const [theme, setTheme] = useState('light');
@@ -26,7 +21,7 @@ const ToggleButton = () => {
   };
 
   return (
-    <button onClick={toggleTheme}>
+    <button className={styles.toggleButton} onClick={toggleTheme}>
       {theme === 'light' ? t('dark_mode') : t('light_mode')}
     </button>
   );
