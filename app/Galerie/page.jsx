@@ -1,3 +1,4 @@
+'use client'
 import Galerie from "@/components/Galerie"
 
 export const metadata = {

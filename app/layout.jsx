@@ -10,7 +10,7 @@ import { I18nextProvider } from 'react-i18next';
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+const metadata = {
   title: 'Space-Explorer | Accueil',
   description: 'Site web présentant les fonctionnalités de React et Next.js.',
   openGraph: {

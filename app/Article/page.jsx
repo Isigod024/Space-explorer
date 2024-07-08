@@ -1,3 +1,4 @@
+'use client'
 import ArticleList from "@/components/ArticleList"
 
 export const metadata = {
