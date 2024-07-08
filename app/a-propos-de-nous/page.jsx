@@ -1,3 +1,4 @@
+'use client'
 import Apropos from "@/components/Apropos"
 
 export const metadata = {

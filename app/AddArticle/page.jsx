@@ -1,3 +1,4 @@
+'use client'
 import AddArticle from "@/components/AjoutArticle"
 
 export const metadata = {
