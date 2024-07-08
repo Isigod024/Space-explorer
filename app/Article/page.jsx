@@ -1,7 +1,7 @@
 'use client'
 import ArticleList from "@/components/ArticleList"
 
-export const metadata = {
+const metadata = {
     title: 'Space-Explorer | Article',
     description: 'Site web présentant les fonctionnalités de React et Next.js.',
     openGraph: {

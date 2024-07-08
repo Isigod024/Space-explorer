@@ -1,7 +1,7 @@
 'use client'
 import Connexion from "@/components/Connexion"
 
-export const metadata = {
+const metadata = {
     title: 'Space-Explorer | Connexion',
     description: 'Site web présentant les fonctionnalités de React et Next.js.',
     openGraph: {
