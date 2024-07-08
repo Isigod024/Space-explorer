@@ -7,9 +7,18 @@ import Footer from '@/components/Footer';
 import "./globals.css";
 import styles from './layout.module.css';
 import { I18nextProvider } from 'react-i18next';
-import i18n from './i18n'; // Assurez-vous que le chemin est correct
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const metadata = {
+  title: 'Space-Explorer | Accueil',
+  description: 'Site web présentant les fonctionnalités de React et Next.js.',
+  openGraph: {
+    title: 'Space-Explorer | Accueil',
+    description: 'Site web présentant les fonctionnalités de React et Next.js.',
+    images: ['./Space_Explorer.webp']
+  }
+}
 
 export default function RootLayout({ children }) {
   return (
