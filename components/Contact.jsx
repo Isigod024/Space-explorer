@@ -1,7 +1,8 @@
-'use client';
+'use client'; // Ajoutez cette ligne en haut du fichier
 
 import React, { useState } from 'react';
-import styles from './Contact.module.css'; // Chemin correct
+import { useTranslation } from 'react-i18next';
+import styles from './Contact.module.css';
 
 const contacts = [
   { name: 'Yanik', email: 'yanik@example.com', phone: '123-456-7890' },
@@ -10,6 +11,7 @@ const contacts = [
 ];
 
 export default function Contact() {
+  const { t } = useTranslation();
   const [form, setForm] = useState({ name: '', email: '', message: '', recipient: contacts[0].email });
 
   const handleChange = (e) => {
@@ -27,7 +29,7 @@ export default function Contact() {
 
   return (
     <div className={styles.contactContainer}>
-      <h1>Contact</h1>
+      <h1>{t('contact')}</h1>
       <ul className={styles.contactList}>
         {contacts.map((contact, index) => (
           <li key={index}>
@@ -38,10 +40,10 @@ export default function Contact() {
         ))}
       </ul>
       <div className={styles.contactForm}>
-        <h2>Envoyez-nous un message</h2>
+        <h2>{t('send_message')}</h2>
         <form onSubmit={handleSubmit}>
           <div className={styles.formGroup}>
-            <label htmlFor="recipient">Destinataire:</label>
+            <label htmlFor="recipient">{t('recipient')}:</label>
             <select
               id="recipient"
               name="recipient"
@@ -57,7 +59,7 @@ export default function Contact() {
             </select>
           </div>
           <div className={styles.formGroup}>
-            <label htmlFor="name">Nom:</label>
+            <label htmlFor="name">{t('name')}:</label>
             <input
               type="text"
               id="name"
@@ -68,7 +70,7 @@ export default function Contact() {
             />
           </div>
           <div className={styles.formGroup}>
-            <label htmlFor="email">Email:</label>
+            <label htmlFor="email">{t('email')}:</label>
             <input
               type="email"
               id="email"
@@ -79,7 +81,7 @@ export default function Contact() {
             />
           </div>
           <div className={styles.formGroup}>
-            <label htmlFor="message">Message:</label>
+            <label htmlFor="message">{t('message')}:</label>
             <textarea
               id="message"
               name="message"
@@ -88,9 +90,11 @@ export default function Contact() {
               required
             />
           </div>
-          <button type="submit" className={styles.formButton}>Envoyer</button>
+          <button type="submit" className={styles.formButton}>{t('send')}</button>
         </form>
       </div>
     </div>
   );
 }
+
+

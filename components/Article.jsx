@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import ArticleForm from './ArticleForm';
 import { sendEmail } from './emailService';
 import styles from './AjoutArticle.module.css';
+import { useTranslation } from 'react-i18next';
 
 export default function AjoutArticle() {
     const [article, setArticle] = useState({

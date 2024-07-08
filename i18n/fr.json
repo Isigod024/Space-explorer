@@ -1,0 +1,14 @@
+{
+  "home": "Accueil",
+  "article": "Article",
+  "gallery": "Galerie",
+  "add_article": "Ajout d'article",
+  "login": "Connexion",
+  "contact": "Contact",
+  "dark_mode": "Mode Sombre",
+  "light_mode": "Mode Clair",
+  "welcome_message": "Bienvenue chez Space Explorer",
+  "intro_text": "Plongez dans les mystères de l'univers avec nous. Sur Space Explorer, nous vous proposons une exploration fascinante de l'espace, des étoiles et des galaxies, en passant par les trous noirs et les nébuleuses. Que vous soyez un passionné d'astronomie ou simplement curieux de découvrir les merveilles cosmiques, nos articles sont conçus pour éveiller votre curiosité et enrichir vos connaissances.",
+  "categories": "Catégories d'Articles",
+  "footer_text": "© 2024 Space Explorer"
+}

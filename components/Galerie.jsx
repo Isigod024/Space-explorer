@@ -1,8 +1,9 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import articles from '../data/articles';
+import articles from '../data/articles.json'; // Assurez-vous que le chemin et le nom sont corrects
 import styles from './Galerie.module.css';
 import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 
 const Galerie = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -20,7 +21,7 @@ const Galerie = () => {
     }
   }, []);
 
-  const images = articles.articles.reduce((acc, article) => {
+  const images = Array.isArray(articles) ? articles.reduce((acc, article) => {
     if (article.image_principale && article.image_principale.lien_image) {
       acc.push(article.image_principale);
     }
@@ -32,7 +33,7 @@ const Galerie = () => {
       });
     }
     return acc;
-  }, []);
+  }, []) : [];
 
   const handleImageClick = (image) => {
     setSelectedImage(image);
@@ -71,14 +72,14 @@ const Galerie = () => {
       <div className={styles.gallery}>
         {[...images, ...userImages].map((image, index) => (
           <div key={index} className={styles.card} onClick={() => handleImageClick(image)}>
-            <Image src={image.lien_image} alt={image.titre_image}  height={1000} width={1000}/>
+            <Image src={image.lien_image} alt={image.titre_image} height={1000} width={1000} />
           </div>
         ))}
       </div>
       {selectedImage && (
         <div className={styles.overlay} onClick={closeImage}>
           <div className={styles.largeImageContainer}>
-            <Image className={styles.largeImage} src={selectedImage.lien_image} alt={selectedImage.titre_image}  height={1000} width={1000}/>
+            <Image className={styles.largeImage} src={selectedImage.lien_image} alt={selectedImage.titre_image} height={1000} width={1000} />
             <div className={styles.imageInfo}>
               <h2>{selectedImage.titre_image}</h2>
               <p>{selectedImage.description_image}</p>
