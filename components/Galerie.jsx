@@ -78,12 +78,13 @@ const Galerie = () => {
       </div>
       {selectedImage && (
         <div className={styles.overlay} onClick={closeImage}>
-          <div className={styles.largeImageContainer}>
+          <div className={styles.largeImageContainer} onClick={(e) => e.stopPropagation()}>
             <Image className={styles.largeImage} src={selectedImage.lien_image} alt={selectedImage.titre_image} height={1000} width={1000} />
             <div className={styles.imageInfo}>
               <h2>{selectedImage.titre_image}</h2>
               <p>{selectedImage.description_image}</p>
             </div>
+            <button className={styles.closeButton} onClick={closeImage}>X</button>
           </div>
         </div>
       )}
