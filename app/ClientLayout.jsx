@@ -1,8 +1,7 @@
-// app/ClientLayout.jsx
 'use client';
 
 import { I18nextProvider } from 'react-i18next';
-import i18n from './i18n'; // Make sure to import your i18n configuration
+import i18n from './i18n'; 
 
 export default function ClientLayout({ children }) {
   return (
