@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
+import { i18n } from './next-i18next.config.js';
+
 const nextConfig = {
   reactStrictMode: true,
   images: {
@@ -29,7 +30,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'tse1.mm.bing.net', // Ajout du domaine manquant
+        hostname: 'tse1.mm.bing.net',
       },
       {
         protocol: 'https',
@@ -37,7 +38,7 @@ const nextConfig = {
       },
     ],
   },
-}
+  i18n,
+};
 
 export default nextConfig;
-

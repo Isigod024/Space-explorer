@@ -1,3 +1,4 @@
+// components/Header.jsx
 'use client';
 
 import React, { useEffect, useState, useRef } from 'react';
@@ -16,7 +17,7 @@ export default function Header() {
   const [navVisible, setNavVisible] = useState(false);
   const pathname = usePathname();
   const lastScrollTop = useRef(0);
-  const { t } = useTranslation();
+  const { t } = useTranslation('common'); // Utilisez le namespace 'common'
 
   const toggleNav = () => {
     setNavVisible(!navVisible);

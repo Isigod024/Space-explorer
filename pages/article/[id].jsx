@@ -1,3 +1,4 @@
+// pages/index.jsx
 import React from 'react';
 import { useRouter } from 'next/router';
 import ArticleShow from '@/components/ArticleShow';
@@ -8,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 export default function ArticlePage() {
   const router = useRouter();
   const { id } = router.query;
-  const { t } = useTranslation();
+  const { t } = useTranslation('common'); // Utilisez le namespace 'common'
 
   if (!id) return null;
 

@@ -1,14 +1,12 @@
+
 {
+  "welcome": "Welcome to Space Explorer",
   "home": "Home",
   "article": "Article",
   "gallery": "Gallery",
   "add_article": "Add Article",
-  "login": "Login",
   "contact": "Contact",
-  "dark_mode": "Dark Mode",
   "light_mode": "Light Mode",
-  "welcome_message": "Welcome to Space Explorer",
-  "intro_text": "Dive into the mysteries of the universe with us. At Space Explorer, we offer you a fascinating exploration of space, stars, and galaxies, from black holes to nebulae. Whether you're a passionate astronomer or just curious to discover cosmic wonders, our articles are designed to spark your curiosity and enrich your knowledge.",
-  "categories": "Article Categories",
-  "footer_text": "© 2024 Space Explorer"
+  "dark_mode": "Dark Mode",
+  "language": "Language"
 }
