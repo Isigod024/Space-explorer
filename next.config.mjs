@@ -1,4 +1,4 @@
-import { i18n } from './next-i18next.config.js';
+import nextI18NextConfig from './next-i18next.config.js';
 
 const nextConfig = {
   reactStrictMode: true,
@@ -38,7 +38,7 @@ const nextConfig = {
       },
     ],
   },
-  i18n,
+  ...nextI18NextConfig,
 };
 
 export default nextConfig;
