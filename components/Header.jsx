@@ -11,6 +11,9 @@ import Link from 'next/link';
 import ToggleButton from './ToggleButton';
 import LanguageSelector from './LanguageSelector';
 import { useTranslation } from 'react-i18next';
+import { useTheme } from './ThemeProvider'; //Importer le hook personnalisé pour manipuler le thème
+import { useLocale } from './LocaleProvider';
+import { FormattedMessage } from 'react-intl'
 
 export default function Header() {
   const [isVisible, setIsVisible] = useState(true);

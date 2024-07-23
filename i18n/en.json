@@ -1,12 +1,8 @@
-
 {
-  "welcome": "Welcome to Space Explorer",
-  "home": "Home",
-  "article": "Article",
-  "gallery": "Gallery",
-  "add_article": "Add Article",
-  "contact": "Contact",
-  "light_mode": "Light Mode",
-  "dark_mode": "Dark Mode",
-  "language": "Language"
+  "app.header.title": "Biblio App",
+  "app.header.menu.lien1": "Home",
+  "app.header.menu.lien2": "Documents",
+  "app.header.menu.lien3": "Contact",
+  "app.header.menu.lien4": "Log In",
+  "app.header.theme": "Dark mode"
 }
